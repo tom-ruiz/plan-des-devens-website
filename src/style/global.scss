@@ -13,9 +13,26 @@
     src: url("../fonts/Zachery.otf");
 }
 
+h1,
+h2,
+h3,
+h4 {
+    font-family: "Zachery";
+    user-select: none;
+}
+
+h1 {
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
 
 p {
     font-family: "Louis George Cafe";
+    user-select: none;
+}
+
+.p-global {
+    padding: 0 10vw 0 10vw;
 }
 
 $color-orange : #9c4c1e;

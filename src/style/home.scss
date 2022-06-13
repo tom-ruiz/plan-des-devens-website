@@ -1,0 +1,31 @@
+@import "./global.scss";
+
+.home {
+    &__container {
+        &-video {
+            top: 0;
+            width: 100%;
+            height: 80vh;
+            background-color: $color-orange;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+
+            &>img {
+                height: 30%;
+            }
+        }
+
+        &-infos {
+            display: flex;
+            margin: 10vh 0 10vh 0;
+
+
+            &>img {
+                width: 600px;
+                border-radius: 2%;
+                box-shadow: 8px 8px 19px -4px rgba(0, 0, 0, 0.38);
+            }
+        }
+    }
+}
