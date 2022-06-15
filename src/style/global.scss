@@ -1,3 +1,5 @@
+@import 'animate.css';
+
 @font-face {
     font-family: "Louis George Cafe";
     src: url("../fonts/Louis-George-Cafe.ttf");
@@ -23,12 +25,13 @@ h4 {
 
 h1 {
     text-transform: uppercase;
-    letter-spacing: 1px;
+    letter-spacing: 2px;
 }
 
 p {
     font-family: "Louis George Cafe";
     user-select: none;
+    text-align: justify;
 }
 
 .p-global {
