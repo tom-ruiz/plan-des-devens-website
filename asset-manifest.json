@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/plan-des-devens-website/static/css/main.18c27ab2.css",
-    "main.js": "/plan-des-devens-website/static/js/main.1929cdaf.js",
+    "main.css": "/plan-des-devens-website/static/css/main.0f93ccf8.css",
+    "main.js": "/plan-des-devens-website/static/js/main.3e74c5c6.js",
     "static/js/787.0cbd9d38.chunk.js": "/plan-des-devens-website/static/js/787.0cbd9d38.chunk.js",
     "static/media/home1.jpg": "/plan-des-devens-website/static/media/home1.bb8a19d7465af56ba27d.jpg",
     "static/media/welcome.jpg": "/plan-des-devens-website/static/media/welcome.3a9f75e7baca5089cdad.jpg",
@@ -10,12 +10,12 @@
     "static/media/Louis-George-Cafe.ttf": "/plan-des-devens-website/static/media/Louis-George-Cafe.eacd87871e9a39013626.ttf",
     "static/media/Zachery.otf": "/plan-des-devens-website/static/media/Zachery.2459397e024f00e90099.otf",
     "index.html": "/plan-des-devens-website/index.html",
-    "main.18c27ab2.css.map": "/plan-des-devens-website/static/css/main.18c27ab2.css.map",
-    "main.1929cdaf.js.map": "/plan-des-devens-website/static/js/main.1929cdaf.js.map",
+    "main.0f93ccf8.css.map": "/plan-des-devens-website/static/css/main.0f93ccf8.css.map",
+    "main.3e74c5c6.js.map": "/plan-des-devens-website/static/js/main.3e74c5c6.js.map",
     "787.0cbd9d38.chunk.js.map": "/plan-des-devens-website/static/js/787.0cbd9d38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.18c27ab2.css",
-    "static/js/main.1929cdaf.js"
+    "static/css/main.0f93ccf8.css",
+    "static/js/main.3e74c5c6.js"
   ]
 }
