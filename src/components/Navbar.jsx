@@ -1,17 +1,71 @@
-import React from "react";
+import React, { useState, useEffect, useRef } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "../style/navbar.scss";
+import { AiOutlineMenu } from "react-icons/ai";
 
 export default function NavbarComponent() {
+  const [toggleMenu, setToggleMenu] = useState(false);
+  const [screenWidth, setScreenWidth] = useState(window.innerWidth);
+  const toggleNav = () => {
+    setToggleMenu(!toggleMenu);
+  };
+
+  useEffect(() => {
+    const changeWidth = () => {
+      setScreenWidth(window.innerWidth);
+    };
+    window.addEventListener("resize", changeWidth);
+    return () => {
+      window.removeEventListener("resize", changeWidth);
+    };
+  }, []);
+
   return (
     <>
       <nav className="nav">
-        <ul>
-          <Link to="/">Accueil</Link>
-          <CustomLink to="/gites">Nos gites</CustomLink>
-          <CustomLink to="/partners">Partenaires</CustomLink>
-          <CustomLink to="/contact">Contact</CustomLink>
-        </ul>
+        {(toggleMenu || screenWidth > 500) && (
+          <ul className="list">
+            <Link
+              to="/accueil"
+              className="items"
+              onClick={() => {
+                window.location.href = "/accueil";
+              }}
+            >
+              Accueil
+            </Link>
+            <CustomLink
+              to="/gites"
+              className="items"
+              onClick={() => {
+                window.location.href = "/gites";
+              }}
+            >
+              Nos gites
+            </CustomLink>
+            <CustomLink
+              to="/partners"
+              className="items"
+              onClick={() => {
+                window.location.href = "/partners";
+              }}
+            >
+              Partenaires
+            </CustomLink>
+            <CustomLink
+              to="/contact"
+              className="items"
+              onClick={() => {
+                window.location.href = "/contact";
+              }}
+            >
+              Contact
+            </CustomLink>
+          </ul>
+        )}
+        <button onClick={toggleNav} className="btn">
+          <AiOutlineMenu className="btn-svg" />
+        </button>
       </nav>
     </>
   );

@@ -8,10 +8,10 @@
   align-items: stretch;
   gap: 2rem;
   height: 100px;
-  
+
 }
 
-.nav ul {
+.list {
   padding: 0;
   margin: 0;
   list-style: none;
@@ -45,6 +45,7 @@
 
 .nav li.active {
   color: $color-orange;
+
   ::before {
     color: #d9d9d9;
   }
@@ -56,5 +57,65 @@
 
   ::before {
     color: #d9d9d9;
+  }
+}
+
+.btn {
+  display: none;
+}
+
+@media screen and (max-width: $max-width-value) {
+  .nav {
+    height: 100%;
+    justify-content: space-between;
+    position: sticky;
+    top: 0;
+    z-index: 2;
+    border-bottom-left-radius: 20px;
+    border-bottom-right-radius: 20px;
+    box-shadow: 8px 8px 19px -4px rgb(0 0 0 / 38%);
+
+  }
+
+  .list {
+    flex-direction: column;
+    height: auto;
+    padding-left: 10%;
+  }
+
+  .items {
+    width: 100%;
+    border-top: 1px solid rgba(255, 255, 255, 0.555);
+    text-align: center;
+    margin-right: 0px;
+    padding: 20px 0;
+  }
+
+  .nav a,
+  .nav li {
+    ::before {
+      content: "";
+      margin-right: 0;
+
+    }
+  }
+
+  .btn {
+    display: block;
+    height: 50px;
+    width: 50px;
+    margin: 15px;
+    position: -webkit-sticky;
+    position: fixed;
+    right: 0;
+    cursor: pointer;
+    border: 1px solid black;
+    border-radius: 10px;
+    background-color: #fff;
+    &-svg {
+      font-size: 30px;
+
+
+    }
   }
 }

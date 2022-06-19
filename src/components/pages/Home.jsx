@@ -3,6 +3,8 @@ import "../../style/home.scss";
 import home1 from "../../img/home/home1.jpg";
 import logoBlanc from "../../img/logo-blanc-full.png";
 import CarouselComponent from "../Carousel";
+import Gites from "./Gites";
+import { Link } from "react-router-dom";
 
 export default function Home() {
   return (
@@ -34,15 +36,15 @@ export default function Home() {
           placerat augue lorem ac tellus. Donec in lacus ultricies nunc lacinia.
         </p>
         <div className="home__container-plus__pictures-container">
-          <div className="home__container-plus__pictures">
+          <a href="./Gites" className="home__container-plus__pictures">
             <img
               className="home__container-plus__pictures__img"
               src={home1}
               alt="home"
             />
             <h1 className="home__container-plus__pictures__text">Nos gites</h1>
-          </div>
-          <div className="home__container-plus__pictures">
+          </a>
+          <a className="home__container-plus__pictures" href="./partners">
             <img
               className="home__container-plus__pictures__img"
               src={home1}
@@ -51,7 +53,7 @@ export default function Home() {
             <h1 className="home__container-plus__pictures__text">
               Nos partenaires
             </h1>
-          </div>
+          </a>
         </div>
       </div>
     </div>
