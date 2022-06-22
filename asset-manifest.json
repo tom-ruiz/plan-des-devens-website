@@ -1,21 +1,25 @@
 {
   "files": {
-    "main.css": "/plan-des-devens-website/static/css/main.0f93ccf8.css",
-    "main.js": "/plan-des-devens-website/static/js/main.3e74c5c6.js",
+    "main.css": "/plan-des-devens-website/static/css/main.89f663bf.css",
+    "main.js": "/plan-des-devens-website/static/js/main.e8acf35e.js",
     "static/js/787.0cbd9d38.chunk.js": "/plan-des-devens-website/static/js/787.0cbd9d38.chunk.js",
+    "static/media/home3.jpg": "/plan-des-devens-website/static/media/home3.1aa3f03419b38379c5ef.jpg",
+    "static/media/intro.jpg": "/plan-des-devens-website/static/media/intro.c7bd16be417f4c1b48d4.jpg",
     "static/media/home1.jpg": "/plan-des-devens-website/static/media/home1.bb8a19d7465af56ba27d.jpg",
     "static/media/welcome.jpg": "/plan-des-devens-website/static/media/welcome.3a9f75e7baca5089cdad.jpg",
+    "static/media/home2.jpg": "/plan-des-devens-website/static/media/home2.507254ce2f84cb9b4e66.jpg",
     "static/media/logo-blanc-full.png": "/plan-des-devens-website/static/media/logo-blanc-full.c2e4e2947241f2a53f75.png",
+    "static/media/fruits.jpg": "/plan-des-devens-website/static/media/fruits.605ded768e45aae9bae3.jpg",
     "static/media/Louis-George-Cafe-Light.ttf": "/plan-des-devens-website/static/media/Louis-George-Cafe-Light.39945fcd312e86adc356.ttf",
     "static/media/Louis-George-Cafe.ttf": "/plan-des-devens-website/static/media/Louis-George-Cafe.eacd87871e9a39013626.ttf",
     "static/media/Zachery.otf": "/plan-des-devens-website/static/media/Zachery.2459397e024f00e90099.otf",
     "index.html": "/plan-des-devens-website/index.html",
-    "main.0f93ccf8.css.map": "/plan-des-devens-website/static/css/main.0f93ccf8.css.map",
-    "main.3e74c5c6.js.map": "/plan-des-devens-website/static/js/main.3e74c5c6.js.map",
+    "main.89f663bf.css.map": "/plan-des-devens-website/static/css/main.89f663bf.css.map",
+    "main.e8acf35e.js.map": "/plan-des-devens-website/static/js/main.e8acf35e.js.map",
     "787.0cbd9d38.chunk.js.map": "/plan-des-devens-website/static/js/787.0cbd9d38.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.0f93ccf8.css",
-    "static/js/main.3e74c5c6.js"
+    "static/css/main.89f663bf.css",
+    "static/js/main.e8acf35e.js"
   ]
 }
