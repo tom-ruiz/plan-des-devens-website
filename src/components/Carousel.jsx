@@ -3,7 +3,7 @@ import Carousel from "better-react-carousel";
 
 export default function CarouselComponent() {
   return (
-    <Carousel cols={2} rows={1} loop autoplay={3500} >
+    <Carousel cols={2} rows={1} loop autoplay={3000} >
       <Carousel.Item>
         <img
           width="100%"

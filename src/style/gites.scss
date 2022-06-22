@@ -1,0 +1,136 @@
+@import "./global.scss";
+
+.gites {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    &__intro {
+        height: 50vh;
+        width: 100%;
+        background-image: url("../img/gites/intro.jpg");
+        background-attachment: fixed;
+        background-size: cover;
+        display: flex;
+        justify-content: center;
+        align-items: flex-end;
+
+        &-container {
+            height: 50%;
+            width: 60%;
+            background-color: #fff;
+            padding: 2em;
+            border-top-left-radius: 20px;
+            border-top-right-radius: 20px;
+        }
+
+        &__title {
+            &-1 {
+                color: $color-orange;
+                margin: 0;
+                text-transform: none;
+            }
+
+            &-2 {
+                color: $color-grey;
+            }
+        }
+    }
+
+    &__items {
+        background-color: $color-orange;
+        height: 35vh;
+        width: 60%;
+        display: flex;
+        justify-content: center;
+        flex-direction: row;
+        border-radius: 20px;
+        color: #fff;
+
+
+        &:nth-child(even) {
+            flex-direction: row-reverse;
+        }
+
+        &-container {
+            height: fit-content;
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            gap: 50px;
+            padding: 4em 0 4em 0;
+
+        }
+
+        &-img {
+            width: 30%;
+            background-image: url("https://picsum.photos/600/600?random=2");
+            background-size: cover;
+            border-radius: 20px;
+            overflow: hidden;
+
+            &-content {
+                height: 100%;
+            }
+        }
+
+        &-button {
+            height: 35px;
+            width: 200px;
+            background-color: unset;
+            border: solid 2px #fff;
+            padding: 20px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            color: #fff;
+            cursor: pointer;
+            transition: .5s;
+            font-weight: bold;
+            text-transform: uppercase;
+
+            &:hover {
+                background-color: #fff;
+                color: $color-orange;
+            }
+
+            &-close {
+                height: 35px;
+                width: 200px;
+                background-color: unset;
+                border: solid 2px $color-orange;
+                padding: 20px;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                color: $color-orange;
+                cursor: pointer;
+                transition: .5s;
+                font-weight: bold;
+                text-transform: uppercase;
+
+                &:hover {
+                    background-color: $color-orange;
+                    color: #fff;
+                }
+
+            }
+        }
+
+        &-infos {
+            display: flex;
+            width: 70%;
+            padding: 30px;
+            flex-direction: column;
+            justify-content: space-between;
+        }
+    }
+}
+
+.Overlay {
+    background-color: aqua;
+}
+
+.Modal {
+    background-color: chartreuse;
+}

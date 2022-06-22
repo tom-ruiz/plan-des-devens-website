@@ -2,7 +2,6 @@ import React, { useState, useEffect } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "../style/navbar.scss";
 import { AiOutlineMenu } from "react-icons/ai";
-
 export default function NavbarComponent() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -25,40 +24,16 @@ export default function NavbarComponent() {
       <nav className="nav">
         {(toggleMenu || screenWidth > 500) && (
           <ul className="list">
-            <Link
-              to="/accueil"
-              className="items"
-              onClick={() => {
-                window.location.href = "/accueil";
-              }}
-            >
+            <Link to="/accueil" className="items" onClick={toggleMenu}>
               Accueil
             </Link>
-            <CustomLink
-              to="/gites"
-              className="items"
-              onClick={() => {
-                window.location.href = "/gites";
-              }}
-            >
+            <CustomLink to="/gites" className="items" onClick={toggleMenu}>
               Nos gites
             </CustomLink>
-            <CustomLink
-              to="/partners"
-              className="items"
-              onClick={() => {
-                window.location.href = "/partners";
-              }}
-            >
+            <CustomLink to="/partners" className="items" onClick={toggleMenu}>
               Partenaires
             </CustomLink>
-            <CustomLink
-              to="/contact"
-              className="items"
-              onClick={() => {
-                window.location.href = "/contact";
-              }}
-            >
+            <CustomLink to="/contact" className="items" onClick={toggleMenu}>
               Contact
             </CustomLink>
           </ul>

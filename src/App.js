@@ -6,6 +6,7 @@ import Contact from "./components/pages/Contact";
 import Partners from "./components/pages/Partners";
 import Gites from "./components/pages/Gites";
 import FooterComponent from "./components/Footer";
+import "aos/dist/aos.css";
 
 function App() {
   return (

@@ -20,6 +20,9 @@
   font-family: "Zachery";
   text-transform: uppercase;
   font-size: 20px;
+  animation: slideInDown;
+  animation-duration: 1.5s;
+
 
 }
 
@@ -66,21 +69,26 @@
 
 @media screen and (max-width: $max-width-value) {
   .nav {
-    height: 100%;
+    height: fit-content;
+    display: flex;
     justify-content: space-between;
-    position: sticky;
+    position: fixed;
     top: 0;
     z-index: 2;
+    width: 100%;
     border-bottom-left-radius: 20px;
     border-bottom-right-radius: 20px;
     box-shadow: 8px 8px 19px -4px rgb(0 0 0 / 38%);
-
+    flex-direction: column;
   }
 
   .list {
     flex-direction: column;
     height: auto;
-    padding-left: 10%;
+    padding: 1em 0 1em 10%;
+    gap: 1em;
+    animation: slideInDown;
+    animation-duration: 0.5s;
   }
 
   .items {
@@ -109,12 +117,17 @@
     position: fixed;
     right: 0;
     cursor: pointer;
-    border: 1px solid black;
+    border: none;
     border-radius: 10px;
-    background-color: #fff;
+    background-color: $color-orange;
+
+    &:active {
+      background-color: #bf6937;
+    }
+
     &-svg {
       font-size: 30px;
-
+      color: #fff;
 
     }
   }

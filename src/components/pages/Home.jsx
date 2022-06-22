@@ -1,18 +1,21 @@
-import React from "react";
+import React, { useEffect } from "react";
 import "../../style/home.scss";
 import home1 from "../../img/home/home1.jpg";
+import fruits from "../../img/home/fruits.jpg";
 import logoBlanc from "../../img/logo-blanc-full.png";
 import CarouselComponent from "../Carousel";
-import Gites from "./Gites";
-import { Link } from "react-router-dom";
-
+import AOS from "aos";
 export default function Home() {
+  useEffect(() => {
+    AOS.init();
+    AOS.refresh();
+  }, []);
   return (
     <div className="home">
       <div className="home__container-video">
         <img src={logoBlanc} alt="" />
       </div>
-      <div className="home__container-infos p-global">
+      <div className="home__container-infos p-global" data-aos="fade-up">
         <div className="home__container-infos__content">
           <h1>La maison d'hotes</h1>
           <p>
@@ -36,7 +39,7 @@ export default function Home() {
           placerat augue lorem ac tellus. Donec in lacus ultricies nunc lacinia.
         </p>
         <div className="home__container-plus__pictures-container">
-          <a href="./Gites" className="home__container-plus__pictures">
+          <a href="./Gites" className="home__container-plus__pictures" data-aos="fade-right">
             <img
               className="home__container-plus__pictures__img"
               src={home1}
@@ -44,10 +47,10 @@ export default function Home() {
             />
             <h1 className="home__container-plus__pictures__text">Nos gites</h1>
           </a>
-          <a className="home__container-plus__pictures" href="./partners">
+          <a className="home__container-plus__pictures" href="./partners" data-aos="fade-left">
             <img
               className="home__container-plus__pictures__img"
-              src={home1}
+              src={fruits}
               alt="home"
             />
             <h1 className="home__container-plus__pictures__text">

@@ -16,15 +16,16 @@
             align-items: center;
             background-image: url("../img/home/welcome.jpg");
             background-repeat: no-repeat;
+            background-attachment: fixed;
             background-size: cover;
 
             &>img {
                 height: 30%;
                 animation: slideInUp;
-                animation-duration: 1s;
+                animation-duration: 1.5s;
 
                 @media(max-width: $max-width-value) {
-                    height: 20%;
+                    height: 18%;
                 }
             }
         }
@@ -36,7 +37,7 @@
             justify-content: center;
             align-items: center;
 
-            @media(max-width: $max-width-value) {
+            @media(max-width: 1255px) {
                 height: 100%;
                 flex-direction: column;
                 margin: 10% 0 10% 0;
@@ -74,7 +75,7 @@
 
             &-p {
                 color: #fff;
-                padding-bottom: 2em;
+                padding: 2em 0 2em 0;
 
                 @media(max-width: $max-width-value) {
                     padding: 0 10vw 0 10vw;
