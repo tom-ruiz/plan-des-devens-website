@@ -24,7 +24,7 @@
                 animation: slideInUp;
                 animation-duration: 1.5s;
 
-                @media(max-width: $max-width-value) {
+                @media(max-width: 805px) {
                     height: 18%;
                 }
             }
@@ -75,11 +75,8 @@
 
             &-p {
                 color: #fff;
-                padding: 2em 0 2em 0;
+                padding: 2em 10vw 2em 10vw;
 
-                @media(max-width: $max-width-value) {
-                    padding: 0 10vw 0 10vw;
-                }
             }
 
             &__pictures {

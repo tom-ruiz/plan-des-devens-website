@@ -88,7 +88,7 @@ export default function Gites() {
           <div className="gites__items-img">
             <img src={home2} alt="" className="gites__items-img-content" />
           </div>
-          <div className="gites__items-infos">
+          <div className="gites__items-infos gites__items-infos-even">
             {" "}
             <p>
               Maecenas vel ante vitae enim tincidunt vehicula. Nunc tincidunt,
@@ -150,7 +150,7 @@ export default function Gites() {
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img"></div>
-          <div className="gites__items-infos">
+          <div className="gites__items-infos gites__items-infos-even">
             {" "}
             <p>
               Maecenas vel ante vitae enim tincidunt vehicula. Nunc tincidunt,
@@ -178,7 +178,7 @@ export default function Gites() {
             </button>
           </Modal>
         </div>
-        <div className=" gites__items"  data-aos="flip-up">
+        <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img"></div>
           <div className="gites__items-infos">
             {" "}

@@ -39,7 +39,11 @@ export default function Home() {
           placerat augue lorem ac tellus. Donec in lacus ultricies nunc lacinia.
         </p>
         <div className="home__container-plus__pictures-container">
-          <a href="./Gites" className="home__container-plus__pictures" data-aos="fade-right">
+          <a
+            href="./Gites"
+            className="home__container-plus__pictures"
+            data-aos="fade-right"
+          >
             <img
               className="home__container-plus__pictures__img"
               src={home1}
@@ -47,7 +51,11 @@ export default function Home() {
             />
             <h1 className="home__container-plus__pictures__text">Nos gites</h1>
           </a>
-          <a className="home__container-plus__pictures" href="./partners" data-aos="fade-left">
+          <a
+            className="home__container-plus__pictures"
+            href="./partners"
+            data-aos="fade-left"
+          >
             <img
               className="home__container-plus__pictures__img"
               src={fruits}

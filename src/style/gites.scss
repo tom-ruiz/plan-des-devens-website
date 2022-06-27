@@ -22,6 +22,11 @@
             padding: 2em;
             border-top-left-radius: 20px;
             border-top-right-radius: 20px;
+
+            @media(max-width: $max-width-value) {
+                width: 80%;
+            }
+
         }
 
         &__title {
@@ -29,10 +34,20 @@
                 color: $color-orange;
                 margin: 0;
                 text-transform: none;
+
+                @media(max-width: $max-width-value) {
+                    font-size: 25px;
+                }
+
             }
 
             &-2 {
                 color: $color-grey;
+
+                @media(max-width: $max-width-value) {
+                    font-size: 20px;
+                }
+
             }
         }
     }
@@ -46,10 +61,21 @@
         flex-direction: row;
         border-radius: 20px;
         color: #fff;
+        box-shadow: 8px 8px 19px -4px rgb(0 0 0 / 38%);
 
+        @media(max-width: $max-width-value) {
+            width: 80%;
+            flex-direction: column;
+            height: fit-content;
+            align-items: center;
+        }
 
         &:nth-child(even) {
             flex-direction: row-reverse;
+
+            @media(max-width: $max-width-value) {
+                flex-direction: column;
+            }
         }
 
         &-container {
@@ -60,17 +86,22 @@
             gap: 50px;
             padding: 4em 0 4em 0;
 
+            @media(max-width: $max-width-value) {
+                width: 100%;
+            }
+
         }
 
         &-img {
-            width: 30%;
-            background-image: url("https://picsum.photos/600/600?random=2");
+
             background-size: cover;
             border-radius: 20px;
             overflow: hidden;
+            background-repeat: no-repeat;
 
             &-content {
                 height: 100%;
+                width: 100%;
             }
         }
 
@@ -118,11 +149,24 @@
         }
 
         &-infos {
-            display: flex;
             width: 70%;
             padding: 30px;
+            display: flex;
             flex-direction: column;
             justify-content: space-between;
+
+            @media(max-width: $max-width-value) {
+                padding: 10px 5px 30px 5px;
+                align-items: center;
+            }
+
+            &-even {
+                align-items: flex-end;
+
+                @media(max-width: $max-width-value) {
+                    align-items: center;
+                }
+            }
         }
     }
 }

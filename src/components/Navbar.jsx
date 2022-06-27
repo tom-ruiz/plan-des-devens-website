@@ -2,6 +2,7 @@ import React, { useState, useEffect } from "react";
 import { Link, useMatch, useResolvedPath } from "react-router-dom";
 import "../style/navbar.scss";
 import { AiOutlineMenu } from "react-icons/ai";
+import { useTranslation } from "react-i18next";
 export default function NavbarComponent() {
   const [toggleMenu, setToggleMenu] = useState(false);
   const [screenWidth, setScreenWidth] = useState(window.innerWidth);
@@ -19,10 +20,12 @@ export default function NavbarComponent() {
     };
   }, []);
 
+  const { t } = useTranslation();
+
   return (
     <>
       <nav className="nav">
-        {(toggleMenu || screenWidth > 500) && (
+        {(toggleMenu || screenWidth > 805) && (
           <ul className="list">
             <Link to="/accueil" className="items" onClick={toggleMenu}>
               Accueil
