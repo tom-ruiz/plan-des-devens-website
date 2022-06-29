@@ -1,0 +1,21 @@
+@import "./global.scss";
+
+.contact {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    &__form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+
+        label {
+            font-family: "Zachery";
+            user-select: none;
+            font-size: 30px;
+            line-height: 2em;
+        }
+    }
+}

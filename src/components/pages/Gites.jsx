@@ -57,13 +57,10 @@ export default function Gites() {
           </div>
           <div className="gites__items-infos">
             {" "}
-            <p>
-              Maecenas vel ante vitae enim tincidunt vehicula. Nunc tincidunt,
-              metus in volutpat gravida, odio lorem tincidunt arcu, ac
-              vestibulum massa dolor in mi. Nulla iaculis odio posuere commodo
-              sodales. Vestibulum arcu justo, ultricies sit amet efficitur
-              luctus, fermentum eu est. Vestibulum vel elementum urna.{" "}
-            </p>
+            <div>
+              <h2>Gite de fou</h2>
+              <p>Coucou. </p>
+            </div>
             <button onClick={openModal} className="gites__items-button">
               En savoir plus
             </button>
@@ -72,15 +69,14 @@ export default function Gites() {
             isOpen={modalIsOpen}
             onAfterOpen={afterOpenModal}
             onRequestClose={closeModal}
-            contentLabel="Example Modal"
             overlayClassName="Overlay"
             className="Modal"
           >
-            <h2>Hello</h2>
-            <div>I am a modal</div>
+            <h2>Gite n°1</h2>
+            <div>Le gite est constitué de bla bla bla</div>
 
             <button className="gites__items-button-close" onClick={closeModal}>
-              close
+              Fermer
             </button>
           </Modal>
         </div>
@@ -171,7 +167,7 @@ export default function Gites() {
             contentLabel="Example Modal"
           >
             <h2>Hello</h2>
-            <div>I am a modal</div>
+            <div>I adm a modal</div>
 
             <button className="gites__items-button-close" onClick={closeModal}>
               close
@@ -201,7 +197,7 @@ export default function Gites() {
             contentLabel="Example Modal"
           >
             <h2>Hello</h2>
-            <div>I am a modal</div>
+            <div>I am va modal</div>
 
             <button className="gites__items-button-close" onClick={closeModal}>
               close
