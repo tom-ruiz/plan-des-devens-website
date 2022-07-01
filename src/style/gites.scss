@@ -4,6 +4,7 @@
     display: flex;
     flex-direction: column;
     align-items: center;
+    overflow: hidden;
 
     &__intro {
         height: 50vh;
@@ -92,6 +93,11 @@
 
         }
 
+        h3 {
+            color: #ffb58a;
+            font-size: 15px;
+        }
+
         &-img {
 
             background-size: cover;
@@ -175,6 +181,43 @@
     background-color: aqua;
 }
 
+
 .Modal {
-    background-color: chartreuse;
+    margin: 40px 64px 0 64px;
+    animation: fadeInUp;
+    animation-duration: .5s;
+    animation-timing-function: ease-out;
+    background-color: white;
+    padding: 2em;
+    border-radius: 20px;
+    box-shadow: 8px 8px 19px -4px rgb(0 0 0 / 38%);
+
+    &__container {
+        display: flex;
+        width: 100%;
+        height: 64vh;
+    }
+
+    &__section {
+        width: 50%;
+
+        &-text {
+            padding-right: 20px;
+            line-height: 2em;
+        }
+
+        &-img {
+            overflow-y: scroll;
+            display: flex;
+            flex-direction: row;
+            flex-wrap: wrap;
+        }
+
+        img {
+            max-width: 50%;
+            height: auto;
+            padding: 10px;
+            border-radius: 25px;
+        }
+    }
 }

@@ -42,7 +42,7 @@ export default function Home() {
           <a
             href="./Gites"
             className="home__container-plus__pictures"
-            data-aos="fade-right"
+            data-aos="fade-up"
           >
             <img
               className="home__container-plus__pictures__img"
@@ -54,7 +54,7 @@ export default function Home() {
           <a
             className="home__container-plus__pictures"
             href="./partners"
-            data-aos="fade-left"
+            data-aos="fade-up"
           >
             <img
               className="home__container-plus__pictures__img"

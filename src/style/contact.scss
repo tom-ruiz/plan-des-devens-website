@@ -5,17 +5,78 @@
     flex-direction: column;
     justify-content: center;
     align-items: center;
+    background-color: $color-orange;
 
     &__form {
         display: flex;
         flex-direction: column;
         align-items: center;
+        margin-top: 1em;
 
-        label {
-            font-family: "Zachery";
-            user-select: none;
-            font-size: 30px;
-            line-height: 2em;
+        h2 {
+            font-size: 40px;
+            color: #fff;
         }
+
+        textarea {
+            height: 250px;
+        }
+    }
+
+    &__input {
+        font-family: "Louis George Cafe";
+        height: 65px;
+        width: 400px;
+        border-bottom: solid 2px $color-orange;
+        border-top: none;
+        border-right: none;
+        border-left: none;
+        padding: 10px;
+        margin-top: 20px;
+        border-radius: 10px;
+        font-size: 1em;
+        transition: 0.5 ease-in-out;
+
+        &:focus {
+            box-shadow: 8px 8px 19px -4px rgb(0 0 0 / 38%);
+            border: none;
+            outline: none;
+            animation: fadeInUp;
+        }
+
+        &:hover {
+            transition: 0.5s ease-in-out;
+        }
+
+    }
+
+    &__calendar {
+        margin-top: 2em;
+        background-color: #fff;
+        padding: 20px;
+        border-radius: 20px;
+        margin-bottom: 3em;
+        box-shadow: 8px 19px -4px rgb(0 0 0 / 38%)
+    }
+}
+
+.button-primary {
+    height: 35px;
+    width: 200px;
+    background-color: unset;
+    border: solid 2px #fff;
+    margin-top: 2em;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    cursor: pointer;
+    transition: .5s;
+    font-weight: bold;
+    text-transform: uppercase;
+
+    &:hover {
+        background-color: #fff;
+        color: $color-orange;
     }
 }
