@@ -38,7 +38,7 @@ export default function Gites() {
         <div className="gites__intro-container">
           <h1 className="gites__intro__title-1">
             Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce eget
-            finibus quam. Integer in libero nulla.
+            finibus quam.
           </h1>
           <h2 className="gites__intro__title-2">
             Donec ultricies dolor eget aliquam maximus. Ut at odio felis.
@@ -53,7 +53,7 @@ export default function Gites() {
           <div className="gites__items-infos">
             {" "}
             <div>
-              <h2>Gite de fou</h2>
+              <h2>Logement 1</h2>
               <h3>A partir de <span>150€ la nuit</span></h3>
               <p>
                 Lorem ipsum dolor sit amet, consectetur adipiscing elit. In quis
@@ -74,7 +74,7 @@ export default function Gites() {
             ariaHideApp={false}
             className="Modal"
           >
-            <h1>Le gite avec le nom "Super gite"</h1>
+            <h1>Logement 1</h1>
             <h3>Pour 2 personnes</h3>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
@@ -85,7 +85,7 @@ export default function Gites() {
                   le jardin exotique de la Villa. La suite Safran offre un
                   couchage de 160cm mais aussi un coin-salon, ouvert sur la
                   pièce, doté d'un confortable canapé-lit pour 2 personnes
-                  supplémentaires (couchage 140cm). Lumineuse et claire, la
+                  supplémentaires . Lumineuse et claire, la
                   chambre évoque à la fois l’Orient avec quelques touches de
                   couleur safran ou de marbre mais aussi la simplicité des
                   cabanons des pêcheurs marseillais avec ses murs habillés de
@@ -128,8 +128,15 @@ export default function Gites() {
           <div className="gites__items-infos">
             {" "}
             <div>
-              <h2>Gite de fou</h2>
-              <p>Coucou. </p>
+              <h2>Logement 2</h2>
+              <h3>A partir de <span>250€ la nuit</span></h3>
+              <p>   Proposée depuis le printemps 2020, la suite Safran est une
+                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
+                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
+                  le jardin exotique de la Villa. La suite Safran offre un
+                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
+                  pièce, doté d'un confortable canapé-lit pour 2 personnes
+                  supplémentaires .</p>
             </div>
             <button onClick={openModal1} className="gites__items-button">
               En savoir plus
@@ -141,8 +148,8 @@ export default function Gites() {
             ariaHideApp={false}
             className="Modal"
           >
-            <h1>Le gite avec le nom "Super gite"</h1>
-            <h3>Pour 2 personnes</h3>
+            <h1>Logement 2</h1>
+            <h3>Pour 4 personnes</h3>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
@@ -152,7 +159,7 @@ export default function Gites() {
                   le jardin exotique de la Villa. La suite Safran offre un
                   couchage de 160cm mais aussi un coin-salon, ouvert sur la
                   pièce, doté d'un confortable canapé-lit pour 2 personnes
-                  supplémentaires (couchage 140cm). Lumineuse et claire, la
+                  supplémentaires . Lumineuse et claire, la
                   chambre évoque à la fois l’Orient avec quelques touches de
                   couleur safran ou de marbre mais aussi la simplicité des
                   cabanons des pêcheurs marseillais avec ses murs habillés de
@@ -188,34 +195,195 @@ export default function Gites() {
             </button>
           </Modal>
         </div>
-        <div className="gites__items" data-aos="flip-up">
+        <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={home2} alt="" className="gites__items-img-content" />
+            <img src={home1} alt="" className="gites__items-img-content" />
           </div>
-          <div className="gites__items-infos gites__items-infos-even">
+          <div className="gites__items-infos">
             {" "}
-            <p>
-              Maecenas vel ante vitae enim tincidunt vehicula. Nunc tincidunt,
-              metus in volutpat gravida, odio lorem tincidunt arcu, ac
-              vestibulum massa dolor in mi. Nulla iaculis odio posuere commodo
-              sodales. Vestibulum arcu justo, ultricies sit amet efficitur
-              luctus, fermentum eu est. Vestibulum vel elementum urna.{" "}
-            </p>
-            <button onClick={openModal2} className="gites__items-button">
+            <div>
+              <h2>Logement 2</h2>
+              <h3>A partir de <span>250€ la nuit</span></h3>
+              <p>   Proposée depuis le printemps 2020, la suite Safran est une
+                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
+                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
+                  le jardin exotique de la Villa. La suite Safran offre un
+                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
+                  pièce, doté d'un confortable canapé-lit pour 2 personnes
+                  supplémentaires .</p>
+            </div>
+            <button onClick={openModal1} className="gites__items-button">
               En savoir plus
             </button>
           </div>
           <Modal
-            isOpen={modalIsOpen2}
-            onRequestClose={closeModal2}
+            isOpen={modalIsOpen1}
+            onRequestClose={closeModal1}
             ariaHideApp={false}
             className="Modal"
           >
-            <h2>Hello</h2>
-            <div>I am a modal</div>
+            <h1>Logement 3</h1>
+            <h3>Pour 8 personnes</h3>
+            <div class="Modal__container">
+              <div className="Modal__section Modal__section-text">
+                <p>
+                  Proposée depuis le printemps 2020, la suite Safran est une
+                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
+                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
+                  le jardin exotique de la Villa. La suite Safran offre un
+                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
+                  pièce, doté d'un confortable canapé-lit pour 2 personnes
+                  supplémentaires . Lumineuse et claire, la
+                  chambre évoque à la fois l’Orient avec quelques touches de
+                  couleur safran ou de marbre mais aussi la simplicité des
+                  cabanons des pêcheurs marseillais avec ses murs habillés de
+                  planches de bois. La chambre d’hôtes Safran est décorée avec
+                  des meubles et objets chers aux propriétaires, dans l’esprit
+                  des autres chambres d’hôtes de la Villa. Elle dispose de la
+                  climatisation et du Wifi gratuit.
+                </p>
+              </div>
+              <div className="Modal__section Modal__section-img">
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=2" alt="" />
+                <img src="https://picsum.photos/800/600?random=3" alt="" />
+                <img src="https://picsum.photos/800/600?random=4" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+              </div>
+            </div>
 
-            <button className="gites__items-button-close" onClick={closeModal2}>
-              close
+            <button className="gites__items-button-close" onClick={closeModal1}>
+              Fermer
+            </button>
+          </Modal>
+        </div>
+        <div className=" gites__items" data-aos="flip-up">
+          <div className="gites__items-img">
+            <img src={home1} alt="" className="gites__items-img-content" />
+          </div>
+          <div className="gites__items-infos">
+            {" "}
+            <div>
+              <h2>Logement 2</h2>
+              <h3>A partir de <span>250€ la nuit</span></h3>
+              <p>   Proposée depuis le printemps 2020, la suite Safran est une
+                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
+                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
+                  le jardin exotique de la Villa. La suite Safran offre un
+                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
+                  pièce, doté d'un confortable canapé-lit pour 2 personnes
+                  supplémentaires .</p>
+            </div>
+            <button onClick={openModal1} className="gites__items-button">
+              En savoir plus
+            </button>
+          </div>
+          <Modal
+            isOpen={modalIsOpen1}
+            onRequestClose={closeModal1}
+            ariaHideApp={false}
+            className="Modal"
+          >
+            <h1>Logement 3</h1>
+            <h3>Pour 8 personnes</h3>
+            <div class="Modal__container">
+              <div className="Modal__section Modal__section-text">
+                <p>
+                  Proposée depuis le printemps 2020, la suite Safran est une
+                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
+                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
+                  le jardin exotique de la Villa. La suite Safran offre un
+                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
+                  pièce, doté d'un confortable canapé-lit pour 2 personnes
+                  supplémentaires . Lumineuse et claire, la
+                  chambre évoque à la fois l’Orient avec quelques touches de
+                  couleur safran ou de marbre mais aussi la simplicité des
+                  cabanons des pêcheurs marseillais avec ses murs habillés de
+                  planches de bois. La chambre d’hôtes Safran est décorée avec
+                  des meubles et objets chers aux propriétaires, dans l’esprit
+                  des autres chambres d’hôtes de la Villa. Elle dispose de la
+                  climatisation et du Wifi gratuit.
+                </p>
+              </div>
+              <div className="Modal__section Modal__section-img">
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=2" alt="" />
+                <img src="https://picsum.photos/800/600?random=3" alt="" />
+                <img src="https://picsum.photos/800/600?random=4" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+              </div>
+            </div>
+
+            <button className="gites__items-button-close" onClick={closeModal1}>
+              Fermer
+            </button>
+          </Modal>
+        </div>
+        <div className=" gites__items" data-aos="flip-up">
+          <div className="gites__items-img">
+            <img src={home1} alt="" className="gites__items-img-content" />
+          </div>
+          <div className="gites__items-infos">
+            {" "}
+            <div>
+              <h2>Logement 2</h2>
+              <h3>A partir de <span>250€ la nuit</span></h3>
+              <p>   Proposée depuis le printemps 2020, la suite Safran est une
+                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
+                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
+                  le jardin exotique de la Villa. La suite Safran offre un
+                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
+                  pièce, doté d'un confortable canapé-lit pour 2 personnes
+                  supplémentaires .</p>
+            </div>
+            <button onClick={openModal1} className="gites__items-button">
+              En savoir plus
+            </button>
+          </div>
+          <Modal
+            isOpen={modalIsOpen1}
+            onRequestClose={closeModal1}
+            ariaHideApp={false}
+            className="Modal"
+          >
+            <h1>Logement 3</h1>
+            <h3>Pour 8 personnes</h3>
+            <div class="Modal__container">
+              <div className="Modal__section Modal__section-text">
+                <p>
+                  Proposée depuis le printemps 2020, la suite Safran est une
+                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
+                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
+                  le jardin exotique de la Villa. La suite Safran offre un
+                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
+                  pièce, doté d'un confortable canapé-lit pour 2 personnes
+                  supplémentaires . Lumineuse et claire, la
+                  chambre évoque à la fois l’Orient avec quelques touches de
+                  couleur safran ou de marbre mais aussi la simplicité des
+                  cabanons des pêcheurs marseillais avec ses murs habillés de
+                  planches de bois. La chambre d’hôtes Safran est décorée avec
+                  des meubles et objets chers aux propriétaires, dans l’esprit
+                  des autres chambres d’hôtes de la Villa. Elle dispose de la
+                  climatisation et du Wifi gratuit.
+                </p>
+              </div>
+              <div className="Modal__section Modal__section-img">
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=2" alt="" />
+                <img src="https://picsum.photos/800/600?random=3" alt="" />
+                <img src="https://picsum.photos/800/600?random=4" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src="https://picsum.photos/800/600?random=1" alt="" />
+              </div>
+            </div>
+
+            <button className="gites__items-button-close" onClick={closeModal1}>
+              Fermer
             </button>
           </Modal>
         </div>

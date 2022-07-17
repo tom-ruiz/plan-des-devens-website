@@ -18,6 +18,7 @@
             background-repeat: no-repeat;
             background-attachment: fixed;
             background-size: cover;
+      
 
             &>img {
                 height: 30%;
@@ -33,7 +34,7 @@
         &-infos {
             display: flex;
             gap: 40px;
-            height: 60vh;
+            height: 70vh;
             justify-content: center;
             align-items: center;
 
@@ -75,6 +76,7 @@
             &-p {
                 color: #fff;
                 padding: 2em 10vw 2em 10vw;
+                text-align: center;
 
             }
 

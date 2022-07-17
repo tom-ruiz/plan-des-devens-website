@@ -12,6 +12,7 @@
         flex-direction: column;
         align-items: center;
         margin-top: 1em;
+        width: 700px;
 
         h2 {
             font-size: 40px;
@@ -21,12 +22,17 @@
         textarea {
             height: 250px;
         }
+
+        @media(max-width: $max-width-value) {
+            margin-top: 50px;
+            width: 90%;
+        }
     }
 
     &__input {
         font-family: "Louis George Cafe";
         height: 65px;
-        width: 400px;
+        width: 100%;
         border-bottom: solid 2px $color-orange;
         border-top: none;
         border-right: none;
@@ -56,7 +62,12 @@
         padding: 20px;
         border-radius: 20px;
         margin-bottom: 3em;
-        box-shadow: 8px 19px -4px rgb(0 0 0 / 38%)
+        box-shadow: 8px 19px -4px rgb(0 0 0 / 38%);
+        width: 70%;
+        
+        @media(max-width: $max-width-value) {
+            width: 90%;
+        }
     }
 }
 
