@@ -54,6 +54,7 @@ color: #4D4D4D;
 line-height: 32px;
                 @media(max-width: $max-width-value) {
                     font-size: 20px;
+                    padding: 20px 1em;
                 }
 
             }
@@ -152,7 +153,10 @@ line-height: 32px;
                 transition: .5s;
                 font-weight: bold;
                 text-transform: uppercase;
-
+                @media(max-width: $max-width-value) {
+                    margin-top: 10px;
+                }
+    
                 &:hover {
                     background-color: $color-orange;
                     color: #fff;
@@ -198,7 +202,7 @@ line-height: 32px;
 
 
 .Modal {
-    margin: 40px 64px 0 64px;
+    margin: 20px 64px 0 64px;
     animation: fadeInUp;
     animation-duration: .5s;
     animation-timing-function: ease-out;
@@ -230,8 +234,10 @@ line-height: 32px;
         &-text {
             padding-right: 20px;
             line-height: 2em;
+            overflow-y: scroll;
             @media(max-width: $max-width-value) {
                 padding: 0;
+                overflow-y: unset;
             }
             p{
                 @media(max-width: $max-width-value) {
@@ -259,7 +265,8 @@ line-height: 32px;
             padding: 10px;
             border-radius: 25px;
             @media(max-width: $max-width-value) {
-                max-width: 100%;
+                max-width: unset;
+                width: 320px;
             }
         }
     }

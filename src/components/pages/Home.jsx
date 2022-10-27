@@ -1,7 +1,7 @@
 import React, { useEffect } from "react";
 import "../../style/home.scss";
 import home1 from "../../img/home/home1.jpg";
-import fruits from "../../img/home/fruits.jpg";
+import telephone from "../../img/home/telephone.jpg";
 import logoBlanc from "../../img/logo-blanc-full.png";
 import CarouselComponent from "../Carousel";
 import AOS from "aos";
@@ -27,7 +27,9 @@ export default function Home() {
           dépaysement, calme et sérénité.
           </p>
         </div>
+        <div className="home__container-infos__content-carousel">
         <CarouselComponent />
+        </div>
       </div>
       <div className="home__container-plus">
         <h1 className="home__container-plus-title">En savoir plus</h1>
@@ -46,20 +48,20 @@ export default function Home() {
               src={home1}
               alt="home"
             />
-            <h1 className="home__container-plus__pictures__text">Nos gites</h1>
+            <h1 className="home__container-plus__pictures__text">Le gite</h1>
           </a>
           <a
             className="home__container-plus__pictures"
-            href="./partners"
+            href="./contact"
             data-aos="fade-up"
           >
             <img
               className="home__container-plus__pictures__img"
-              src={fruits}
+              src={telephone}
               alt="home"
             />
             <h1 className="home__container-plus__pictures__text">
-              Nos partenaires
+              Nous contacter
             </h1>
           </a>
         </div>

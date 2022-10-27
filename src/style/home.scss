@@ -45,7 +45,16 @@
             }
 
             &__content {
-                width: 100%;
+                width: 50%;
+                @media(max-width: $max-width-value) {
+                   width: unset;
+                }
+                h1{
+                    margin-top: 0;
+                }
+                &-carousel{
+                    width: 100%;
+                }
             }
         }
 
@@ -55,7 +64,6 @@
             align-items: center;
             flex-direction: column;
             background-color: $color-orange;
-            height: 90vh;
 
             @media(max-width: $max-width-value) {
                 height: 100%;
@@ -64,7 +72,7 @@
 
             &-title {
                 font-size: 4em;
-                margin: 0;
+                margin: 20px 0 0 0;
                 color: #fff;
                 text-align: center;
 

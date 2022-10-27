@@ -30,9 +30,9 @@ export default function FooterComponent() {
         <div>
           <h2>Contact</h2>
           <p>
-            291 Chemin de Chabarette, 84220 Roussillon.
+            291 Chemin de Chabarette, 84220 Roussillon
             <br />
-            emailademander@email.com <br />
+            domaineplandesdevens@gmail.com <br />
             +33 6.26.96.33.29
           </p>
         </div>

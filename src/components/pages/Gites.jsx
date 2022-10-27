@@ -77,10 +77,8 @@ export default function Gites() {
             <div>
               <h2>Tendresse</h2>
               <h3>A partir de <span>150€ la nuit</span></h3>
-              <p>
-              Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, 
-                intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.{" "}
-              </p>
+              <p>Moderne et accueillante, Tendresse se présente en maitre des âmes voyageuses. Simple, chaleureux et intime, voilà un bon compromis pour un séjour de douceur
+             </p>
             </div>
             <button onClick={openModal1} className="gites__items-button">
               En savoir plus
@@ -97,41 +95,42 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.
-Dans votre cuisine privative :
+                Moderne et accueillante, Tendresse se présente en maitre des âmes voyageuses. Simple, chaleureux et intime, voilà un bon compromis pour un séjour de douceur
 
-Bouilloire électrique
-Réfrigérateur
-Espace repas extérieur
-Cuisine
-Grille-pain
-Plateau / bouilloire
-Lave-vaisselle
-Machine à café
-Four
-Plaque de cuisson
-Coin repas
-Micro-ondes
-Barbecue
-Mobilier d’extérieur
-Chaise haute pour enfants
-Table à manger
-Ustensiles de cuisine
+                Dans votre cuisine privative :<br/>
 
-Dans votre salle de bains privative :
-Sèche-cheveux
-Baignoire
-Articles de toilette gratuits
-Papier toilette
-Salle de bains privative
-Toilettes
+Bouilloire électrique<br/>
+Réfrigérateur<br/>
+Espace repas extérieur<br/>
+Cuisine<br/>
+Grille-pain<br/>
+Plateau / bouilloire<br/>
+Lave-vaisselle<br/>
+Machine à café<br/>
+Four<br/>
+Plaque de cuisson<br/>
+Coin repas<br/>
+Micro-ondes<br/>
+Barbecue<br/>
+Mobilier d’extérieur<br/>
+Chaise haute pour enfants<br/>
+Table à manger<br/>
+Ustensiles de cuisine<br/>
 
-Vue :
-Terrasse
-Vue sur le jardin
-Vue
-Patio
-Fumeurs:non-fumeurs
+Dans votre salle de bains privative :<br/>
+Sèche-cheveux<br/>
+Baignoire<br/>
+Articles de toilette gratuits<br/>
+Papier toilette<br/>
+Salle de bains privative<br/>
+Toilettes<br/>
+
+Vue :<br/>
+Terrasse<br/>
+Vue sur le jardin<br/>
+Vue<br/>
+Patio<br/>
+Fumeurs:non-fumeurs<br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -337,7 +336,7 @@ Fumeurs:non-fumeurs
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0007.jpg")}x alt="" className="gites__items-img-content" />
+            <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0007.jpg")} alt="" className="gites__items-img-content" />
           </div>
           <div className="gites__items-infos">
             {" "}
