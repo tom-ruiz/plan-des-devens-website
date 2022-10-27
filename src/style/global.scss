@@ -15,6 +15,11 @@
     src: url("../fonts/Zachery.otf");
 }
 
+@font-face {
+    font-family: "Palatino Lynotype";
+    src: url("../fonts/Palatino Linotype.ttf");
+}
+
 $color-orange : #9c4c1e;
 $color-white : #FEFEE2;
 $color-grey : #9D9D9C;
@@ -24,7 +29,7 @@ h1,
 h2,
 h3,
 h4 {
-    font-family: "Zachery";
+    font-family: "Palatino Lynotype";
     user-select: none;
 }
 
@@ -40,7 +45,6 @@ h3 {
 
 p {
     font-family: "Louis George Cafe";
-    user-select: none;
     text-align: justify;
     letter-spacing: 1px;
 }

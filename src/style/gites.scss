@@ -15,9 +15,12 @@
         display: flex;
         justify-content: center;
         align-items: flex-end;
+        @media(max-width: $max-width-value) {
+           height: 30vh;
+        }
 
         &-container {
-            height: 50%;
+            height: 40%;
             width: 60%;
             background-color: #fff;
             padding: 2em;
@@ -26,7 +29,7 @@
 
             @media(max-width: $max-width-value) {
                 width: 80%;
-                height: 95%;
+                height: 55%;
             }
 
         }
@@ -246,6 +249,7 @@ line-height: 32px;
             width: 50%;
             @media(max-width: $max-width-value) {
                 overflow-y: unset;
+                width: 75%;
             }
         }
 

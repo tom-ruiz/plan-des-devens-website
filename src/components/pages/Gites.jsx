@@ -2,28 +2,53 @@ import React, { useEffect } from "react";
 import "../../style/gites.scss";
 import Modal from "react-modal";
 import home1 from "../../img/home/home1.jpg";
-import home2 from "../../img/home/home2.jpg";
-import home3 from "../../img/home/home3.jpg";
 import AOS from "aos";
 
 export default function Gites() {
   const [modalIsOpen1, setIsOpen1] = React.useState(false);
   const [modalIsOpen2, setIsOpen2] = React.useState(false);
+  const [modalIsOpen3, setIsOpen3] = React.useState(false);
+  const [modalIsOpen4, setIsOpen4] = React.useState(false);
+  const [modalIsOpen5, setIsOpen5] = React.useState(false);
 
   function openModal1() {
     setIsOpen1(true);
-    document.body.style = "overflow: hidden";
-  }
-  function openModal2() {
-    setIsOpen2(true);
     document.body.style = "overflow: hidden";
   }
   function closeModal1() {
     setIsOpen1(false);
     document.body.style = "overflow: unset";
   }
+  function openModal2() { 
+    setIsOpen2(true);
+    document.body.style = "overflow: hidden";
+  }
   function closeModal2() {
     setIsOpen2(false);
+    document.body.style = "overflow: unset";
+  }  
+  function openModal3() { 
+    setIsOpen3(true);
+    document.body.style = "overflow: hidden";
+  }
+  function closeModal3() {
+    setIsOpen3(false);
+    document.body.style = "overflow: unset";
+  }
+  function openModal4() { 
+    setIsOpen4(true);
+    document.body.style = "overflow: hidden";
+  }
+  function closeModal4() {
+    setIsOpen4(false);
+    document.body.style = "overflow: unset";
+  }
+  function openModal5() { 
+    setIsOpen5(true);
+    document.body.style = "overflow: hidden";
+  }
+  function closeModal5() {
+    setIsOpen5(false);
     document.body.style = "overflow: unset";
   }
 
@@ -45,7 +70,7 @@ export default function Gites() {
       <div className="gites__items-container">
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={home1} alt="" className="gites__items-img-content" />
+            <img src={require("../../img/gites/Tendresse/IMG_1083.jpg")} alt="" className="gites__items-img-content" />
           </div>
           <div className="gites__items-infos">
             {" "}
@@ -67,13 +92,12 @@ export default function Gites() {
             ariaHideApp={false}
             className="Modal"
           >
-            <h1>Logement 1</h1>
+            <h1>Tendresse</h1>
             <h3>Pour 2 personnes</h3>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
                 Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.
-
 Dans votre cuisine privative :
 
 Bouilloire électrique
@@ -111,13 +135,16 @@ Fumeurs:non-fumeurs
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=2" alt="" />
-                <img src="https://picsum.photos/800/600?random=3" alt="" />
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_1083.jpg")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_1084.jpg")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_1087.jpg")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_1090.jpg")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_1091.jpg")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_1096.jpg")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_1105.jpg")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_4496.JPG")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_4497.JPG")} alt="" />
+                <img src={require("../../img/gites/Tendresse/IMG_4500.JPG")} alt="" />
               </div>
             </div>
 
@@ -128,7 +155,7 @@ Fumeurs:non-fumeurs
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={home1} alt="" className="gites__items-img-content" />
+            <img src={require("../../img/gites/Volupté/IMG_1065.jpg")} alt="" className="gites__items-img-content" />
           </div>
           <div className="gites__items-infos">
             {" "}
@@ -138,13 +165,13 @@ Fumeurs:non-fumeurs
               <p>Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, 
                 intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.</p>
             </div>
-            <button onClick={openModal1} className="gites__items-button">
+            <button onClick={openModal2} className="gites__items-button">
               En savoir plus
             </button>
           </div>
           <Modal
-            isOpen={modalIsOpen1}
-            onRequestClose={closeModal1}
+            isOpen={modalIsOpen2}
+            onRequestClose={closeModal2}
             ariaHideApp={false}
             className="Modal"
           >
@@ -155,82 +182,46 @@ Fumeurs:non-fumeurs
                 <p>
                 Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.
 
-Dans votre cuisine privative :
-
-Bouilloire électrique
-Réfrigérateur
-Espace repas extérieur
-Cuisine
-Grille-pain
-Plateau / bouilloire
-Lave-vaisselle
-Machine à café
-Four
-Plaque de cuisson
-Coin repas
-Micro-ondes
-Barbecue
-Mobilier d’extérieur
-Chaise haute pour enfants
-Table à manger
-Ustensiles de cuisine
-
-Dans votre salle de bains privative :
-Sèche-cheveux
-Baignoire
-Articles de toilette gratuits
-Papier toilette
-Salle de bains privative
-Toilettes
-
-Vue :
-Terrasse
-Vue sur le jardin
-Vue
-Patio
-Fumeurs:non-fumeurs
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=2" alt="" />
-                <img src="https://picsum.photos/800/600?random=3" alt="" />
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_1065.jpg")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_1067.jpg")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_1068.jpg")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_1075.jpg")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_1079.jpg")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_4504.JPG")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_4505.JPG")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_4508.JPG")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_4509.JPG")} alt="" />
+              <img src={require("../../img/gites/Volupté/IMG_4510.JPG")} alt="" />
               </div>
             </div>
 
-            <button className="gites__items-button-close" onClick={closeModal1}>
+            <button className="gites__items-button-close" onClick={closeModal2}>
               Fermer
             </button>
           </Modal>
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={home1} alt="" className="gites__items-img-content" />
+            <img src={require("../../img/gites/Quiétude/IMG_1061.jpg")} alt="" className="gites__items-img-content" />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Quiétude</h2>
               <h3>A partir de <span>250€ la nuit</span></h3>
-              <p>   Proposée depuis le printemps 2020, la suite Safran est une
-                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
-                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
-                  le jardin exotique de la Villa. La suite Safran offre un
-                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
-                  pièce, doté d'un confortable canapé-lit pour 2 personnes
-                  supplémentaires .</p>
+              <p>En quête de quiétude ? Elle vous attend dans ce splendide logement aux aspects modernes et industriels
+</p>
             </div>
-            <button onClick={openModal1} className="gites__items-button">
+            <button onClick={openModal3} className="gites__items-button">
               En savoir plus
             </button>
           </div>
           <Modal
-            isOpen={modalIsOpen1}
-            onRequestClose={closeModal1}
+            isOpen={modalIsOpen3}
+            onRequestClose={closeModal3}
             ariaHideApp={false}
             className="Modal"
           >
@@ -239,62 +230,59 @@ Fumeurs:non-fumeurs
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                  Proposée depuis le printemps 2020, la suite Safran est une
-                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
-                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
-                  le jardin exotique de la Villa. La suite Safran offre un
-                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
-                  pièce, doté d'un confortable canapé-lit pour 2 personnes
-                  supplémentaires . Lumineuse et claire, la
-                  chambre évoque à la fois l’Orient avec quelques touches de
-                  couleur safran ou de marbre mais aussi la simplicité des
-                  cabanons des pêcheurs marseillais avec ses murs habillés de
-                  planches de bois. La chambre d’hôtes Safran est décorée avec
-                  des meubles et objets chers aux propriétaires, dans l’esprit
-                  des autres chambres d’hôtes de la Villa. Elle dispose de la
-                  climatisation et du Wifi gratuit.
+                En quête de quiétude ? Elle vous attend dans ce splendide logement aux aspects modernes et industriels
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=2" alt="" />
-                <img src="https://picsum.photos/800/600?random=3" alt="" />
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1001.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1003.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1009.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1016.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1018.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1019.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1044.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1047.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1052.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1056.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1057.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1061.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG_1063.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0001.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0002.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0003.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0018.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0019.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0020.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0021.jpg")} alt="" />
+              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0022.jpg")} alt="" />
+
               </div>
             </div>
 
-            <button className="gites__items-button-close" onClick={closeModal1}>
+            <button className="gites__items-button-close" onClick={closeModal3}>
               Fermer
             </button>
           </Modal>
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={home1} alt="" className="gites__items-img-content" />
+            <img src={require("../../img/gites/Sérénité/IMG_0937.jpg")} alt="" className="gites__items-img-content" />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Sérénité</h2>
               <h3>A partir de <span>250€ la nuit</span></h3>
-              <p>   Proposée depuis le printemps 2020, la suite Safran est une
-                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
-                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
-                  le jardin exotique de la Villa. La suite Safran offre un
-                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
-                  pièce, doté d'un confortable canapé-lit pour 2 personnes
-                  supplémentaires .</p>
+              <p>Sérénité, quoi de plus agréable que la sérénité. Cet appartement accueillant et chaleureux donnera un confort tout particulier à votre séjour
+</p>
             </div>
-            <button onClick={openModal1} className="gites__items-button">
+            <button onClick={openModal4} className="gites__items-button">
               En savoir plus
             </button>
           </div>
           <Modal
-            isOpen={modalIsOpen1}
-            onRequestClose={closeModal1}
+            isOpen={modalIsOpen4}
+            onRequestClose={closeModal4}
             ariaHideApp={false}
             className="Modal"
           >
@@ -302,63 +290,71 @@ Fumeurs:non-fumeurs
             <h3>Pour 8 personnes</h3>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
-                <p>
-                  Proposée depuis le printemps 2020, la suite Safran est une
-                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
-                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
-                  le jardin exotique de la Villa. La suite Safran offre un
-                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
-                  pièce, doté d'un confortable canapé-lit pour 2 personnes
-                  supplémentaires . Lumineuse et claire, la
-                  chambre évoque à la fois l’Orient avec quelques touches de
-                  couleur safran ou de marbre mais aussi la simplicité des
-                  cabanons des pêcheurs marseillais avec ses murs habillés de
-                  planches de bois. La chambre d’hôtes Safran est décorée avec
-                  des meubles et objets chers aux propriétaires, dans l’esprit
-                  des autres chambres d’hôtes de la Villa. Elle dispose de la
-                  climatisation et du Wifi gratuit.
-                </p>
+              <p>Sérénité, quoi de plus agréable que la sérénité. Cet appartement accueillant et chaleureux donnera un confort tout particulier à votre séjour
+</p>
               </div>
               <div className="Modal__section Modal__section-img">
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=2" alt="" />
-                <img src="https://picsum.photos/800/600?random=3" alt="" />
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0934.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0936.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0937.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0942.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0943.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0951.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0956.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0958.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0962.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0969.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0973.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0980.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_0987.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4513.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4516.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4519.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4523.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4526.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4519.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4530.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4531.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4533.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4534.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4537.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4541.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4542.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4543.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG_4544.JPG")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0027.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0028.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0029.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0030.jpg")} alt="" />
+              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0031.jpg")} alt="" />
               </div>
             </div>
 
-            <button className="gites__items-button-close" onClick={closeModal1}>
+            <button className="gites__items-button-close" onClick={closeModal4}>
               Fermer
             </button>
           </Modal>
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={home1} alt="" className="gites__items-img-content" />
+            <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0007.jpg")}x alt="" className="gites__items-img-content" />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Bien-être</h2>
               <h3>A partir de <span>250€ la nuit</span></h3>
-              <p>   Proposée depuis le printemps 2020, la suite Safran est une
-                  chambre d'hôtes spacieuse de 24m2, avec salle d'eau (douche,
-                  vasque, wc) séparée. Ses quatre portes-fenêtres s'ouvrent sur
-                  le jardin exotique de la Villa. La suite Safran offre un
-                  couchage de 160cm mais aussi un coin-salon, ouvert sur la
-                  pièce, doté d'un confortable canapé-lit pour 2 personnes
-                  supplémentaires .</p>
+              <p>Donnez un sens particulièrement reposant à votre séjour en optant pour le logement bien-être, ses 
+              couleurs de nature et son atmosphère détendue
+</p>
             </div>
-            <button onClick={openModal1} className="gites__items-button">
+            <button onClick={openModal5} className="gites__items-button">
               En savoir plus
             </button>
           </div>
           <Modal
-            isOpen={modalIsOpen1}
-            onRequestClose={closeModal1}
+            isOpen={modalIsOpen5}
+            onRequestClose={closeModal5}
             ariaHideApp={false}
             className="Modal"
           >
@@ -367,57 +363,28 @@ Fumeurs:non-fumeurs
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, 
-                intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.<br/><br/>
-
-Dans votre cuisine privative :<br/>
-
-Bouilloire électrique<br/>
-Réfrigérateur<br/>
-Espace repas extérieur<br/>
-Cuisine<br/>
-Grille-pain<br/>
-Plateau / bouilloire<br/>
-Lave-vaisselle<br/>
-Machine à café<br/>
-Four<br/>
-Plaque de cuisson<br/>
-Coin repas<br/>
-Micro-ondes<br/>
-Barbecue<br/>
-Mobilier d’extérieur<br/>
-Chaise haute pour enfants<br/>
-Table à manger<br/>
-Ustensiles de cuisine<br/>
-
-Dans votre salle de bains privative :<br/>
-Sèche-cheveux<br/>
-Baignoire<br/>
-Articles de toilette gratuits<br/>
-Papier toilette<br/>
-Salle de bains privative<br/>
-Toilettes<br/>
-
-Vue :<br/>
-Terrasse<br/>
-Vue sur le jardin<br/>
-Vue<br/>
-Patio<br/>
-Fumeurs:non-fumeurs<br/>
+                Donnez un sens particulièrement reposant à votre séjour en optant pour le logement bien-être, ses 
+              couleurs de nature et son atmosphère détendue
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=2" alt="" />
-                <img src="https://picsum.photos/800/600?random=3" alt="" />
-                <img src="https://picsum.photos/800/600?random=4" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
-                <img src="https://picsum.photos/800/600?random=1" alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0005.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0006.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0007.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0008.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0009.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0010.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0011.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0012.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0014.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0015.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0016.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0025.jpg")} alt="" />
+              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0026.jpg")} alt="" />
               </div>
             </div>
 
-            <button className="gites__items-button-close" onClick={closeModal1}>
+            <button className="gites__items-button-close" onClick={closeModal5}>
               Fermer
             </button>
           </Modal>
