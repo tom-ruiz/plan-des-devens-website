@@ -95,9 +95,9 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Moderne et accueillante, Tendresse se présente en maitre des âmes voyageuses. Simple, chaleureux et intime, voilà un bon compromis pour un séjour de douceur
+                Moderne et accueillante, Tendresse se présente en maitre des âmes voyageuses. Simple, chaleureux et intime, voilà un bon compromis pour un séjour de douceur<br/>
 
-                Dans votre cuisine privative :<br/>
+                <br/><b>Dans votre cuisine privative :</b><br/>
 
 Bouilloire électrique<br/>
 Réfrigérateur<br/>
@@ -179,8 +179,41 @@ Fumeurs:non-fumeurs<br/>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.
+                Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.<br/>
+                <br/><b>Dans votre cuisine privative :</b><br/>
 
+Bouilloire électrique<br/>
+Réfrigérateur<br/>
+Espace repas extérieur<br/>
+Cuisine<br/>
+Grille-pain<br/>
+Plateau / bouilloire<br/>
+Lave-vaisselle<br/>
+Machine à café<br/>
+Four<br/>
+Plaque de cuisson<br/>
+Coin repas<br/>
+Micro-ondes<br/>
+Barbecue<br/>
+Mobilier d’extérieur<br/>
+Chaise haute pour enfants<br/>
+Table à manger<br/>
+Ustensiles de cuisine<br/>
+
+Dans votre salle de bains privative :<br/>
+Sèche-cheveux<br/>
+Baignoire<br/>
+Articles de toilette gratuits<br/>
+Papier toilette<br/>
+Salle de bains privative<br/>
+Toilettes<br/>
+
+Vue :<br/>
+Terrasse<br/>
+Vue sur le jardin<br/>
+Vue<br/>
+Patio<br/>
+Fumeurs:non-fumeurs<br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -229,7 +262,41 @@ Fumeurs:non-fumeurs<br/>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                En quête de quiétude ? Elle vous attend dans ce splendide logement aux aspects modernes et industriels
+                En quête de quiétude ? Elle vous attend dans ce splendide logement aux aspects modernes et industriels<br/>
+                <br/><b>Dans votre cuisine privative :</b><br/>
+
+Bouilloire électrique<br/>
+Réfrigérateur<br/>
+Espace repas extérieur<br/>
+Cuisine<br/>
+Grille-pain<br/>
+Plateau / bouilloire<br/>
+Lave-vaisselle<br/>
+Machine à café<br/>
+Four<br/>
+Plaque de cuisson<br/>
+Coin repas<br/>
+Micro-ondes<br/>
+Barbecue<br/>
+Mobilier d’extérieur<br/>
+Chaise haute pour enfants<br/>
+Table à manger<br/>
+Ustensiles de cuisine<br/>
+
+Dans votre salle de bains privative :<br/>
+Sèche-cheveux<br/>
+Baignoire<br/>
+Articles de toilette gratuits<br/>
+Papier toilette<br/>
+Salle de bains privative<br/>
+Toilettes<br/>
+
+Vue :<br/>
+Terrasse<br/>
+Vue sur le jardin<br/>
+Vue<br/>
+Patio<br/>
+Fumeurs:non-fumeurs<br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -289,7 +356,41 @@ Fumeurs:non-fumeurs<br/>
             <h3>Pour 8 personnes</h3>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
-              <p>Sérénité, quoi de plus agréable que la sérénité. Cet appartement accueillant et chaleureux donnera un confort tout particulier à votre séjour
+              <p>Sérénité, quoi de plus agréable que la sérénité. Cet appartement accueillant et chaleureux donnera un confort tout particulier à votre séjour<br/>
+              <br/><b>Dans votre cuisine privative :</b><br/>
+
+Bouilloire électrique<br/>
+Réfrigérateur<br/>
+Espace repas extérieur<br/>
+Cuisine<br/>
+Grille-pain<br/>
+Plateau / bouilloire<br/>
+Lave-vaisselle<br/>
+Machine à café<br/>
+Four<br/>
+Plaque de cuisson<br/>
+Coin repas<br/>
+Micro-ondes<br/>
+Barbecue<br/>
+Mobilier d’extérieur<br/>
+Chaise haute pour enfants<br/>
+Table à manger<br/>
+Ustensiles de cuisine<br/>
+
+Dans votre salle de bains privative :<br/>
+Sèche-cheveux<br/>
+Baignoire<br/>
+Articles de toilette gratuits<br/>
+Papier toilette<br/>
+Salle de bains privative<br/>
+Toilettes<br/>
+
+Vue :<br/>
+Terrasse<br/>
+Vue sur le jardin<br/>
+Vue<br/>
+Patio<br/>
+Fumeurs:non-fumeurs<br/>
 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -363,7 +464,41 @@ Fumeurs:non-fumeurs<br/>
               <div className="Modal__section Modal__section-text">
                 <p>
                 Donnez un sens particulièrement reposant à votre séjour en optant pour le logement bien-être, ses 
-              couleurs de nature et son atmosphère détendue
+              couleurs de nature et son atmosphère détendue<br/>
+              <br/><b>Dans votre cuisine privative :</b><br/>
+
+Bouilloire électrique<br/>
+Réfrigérateur<br/>
+Espace repas extérieur<br/>
+Cuisine<br/>
+Grille-pain<br/>
+Plateau / bouilloire<br/>
+Lave-vaisselle<br/>
+Machine à café<br/>
+Four<br/>
+Plaque de cuisson<br/>
+Coin repas<br/>
+Micro-ondes<br/>
+Barbecue<br/>
+Mobilier d’extérieur<br/>
+Chaise haute pour enfants<br/>
+Table à manger<br/>
+Ustensiles de cuisine<br/>
+
+Dans votre salle de bains privative :<br/>
+Sèche-cheveux<br/>
+Baignoire<br/>
+Articles de toilette gratuits<br/>
+Papier toilette<br/>
+Salle de bains privative<br/>
+Toilettes<br/>
+
+Vue :<br/>
+Terrasse<br/>
+Vue sur le jardin<br/>
+Vue<br/>
+Patio<br/>
+Fumeurs:non-fumeurs<br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
