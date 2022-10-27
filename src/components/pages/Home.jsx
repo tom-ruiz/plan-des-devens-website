@@ -17,16 +17,14 @@ export default function Home() {
       </div>
       <div className="home__container-infos p-global" data-aos="fade-up">
         <div className="home__container-infos__content">
-          <h1>La maison d'hotes</h1>
+          <h1>Le gite</h1>
           <p>
-            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Quisque
-            laoreet libero a mauris tempor sollicitudin pharetra et elit.
-            Praesent vel augue non odio viverra imperdiet. Praesent maximus nisl
-            eget justo accumsan eleifend. Vestibulum nec ipsum vel nunc suscipit
-            iaculis in a arcu. Nam malesuada luctus lorem. Sed pharetra
-            convallis mauris finibus elementum. Vestibulum erat quam, tincidunt
-            ut imperdiet ut, pharetra ut augue. Mauris vitae imperdiet ligula,
-            sit amet iaculis turpis. Maecenas finibus vel sem quis fringilla.
+          Proche du village des Ocres de Roussillon, du majestueux village perché de Bonnieux
+           et de l'emblématique vue du village de Gordes. 
+          Situé dans le triangle d'or du Vaucluse, le Domaine Plan des Devens vous invite à 
+          découvrir ces paysages qui abritent les plus beaux villages de France. 
+          Nous serions ravis de vous accueillir dans l'un de nos logements, tous uniques, pour allier découverte, 
+          dépaysement, calme et sérénité.
           </p>
         </div>
         <CarouselComponent />
@@ -34,9 +32,8 @@ export default function Home() {
       <div className="home__container-plus">
         <h1 className="home__container-plus-title">En savoir plus</h1>
         <p className="home__container-plus-p">
-          Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque
-          ullamcorper, dui vitae tempus luctus, nibh lacus ullamcorper orci, et
-          placerat augue lorem ac tellus. Donec in lacus ultricies nunc lacinia.
+        Découvrez nos logements uniques et consulter notre liste de partenaires locaux, 
+        créateurs des richesses tu terroir Vauclusien.
         </p>
         <div className="home__container-plus__pictures-container">
           <a
