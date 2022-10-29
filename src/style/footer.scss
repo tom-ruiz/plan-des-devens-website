@@ -24,7 +24,7 @@
         gap: 30px;
 
         @media screen and (max-width: 805px) {
-            width: 100%;
+            width: unset;
             height: fit-content;
             border-bottom: 1px solid #f1f1f1;
             padding: 50px 40px 50px 40px;
