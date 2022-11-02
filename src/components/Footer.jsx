@@ -32,7 +32,7 @@ export default function FooterComponent() {
           <p>
             291 Chemin de Chabarette, 84220 Roussillon
             <br />
-            domaineplandesdevens@gmail.com <br />
+            contact@domaineplandesdevens.com<br />
             +33 6.26.96.33.29
           </p>
         </div>

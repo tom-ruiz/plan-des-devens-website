@@ -1,7 +1,6 @@
 import React, { useEffect } from "react";
 import "../../style/gites.scss";
 import Modal from "react-modal";
-import home1 from "../../img/home/home1.jpg";
 import AOS from "aos";
 
 export default function Gites() {
@@ -117,7 +116,7 @@ Chaise haute pour enfants<br/>
 Table à manger<br/>
 Ustensiles de cuisine<br/>
 
-Dans votre salle de bains privative :<br/>
+<br/><b>Dans votre salle de bains privative :</b><br/>
 Sèche-cheveux<br/>
 Baignoire<br/>
 Articles de toilette gratuits<br/>
@@ -125,12 +124,12 @@ Papier toilette<br/>
 Salle de bains privative<br/>
 Toilettes<br/>
 
-Vue :<br/>
+<br/><b>Vue : </b><br/>
 Terrasse<br/>
 Vue sur le jardin<br/>
-Vue<br/>
+
 Patio<br/>
-Fumeurs:non-fumeurs<br/>
+<b>Fumeurs: non-fumeurs</b><br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -160,8 +159,8 @@ Fumeurs:non-fumeurs<br/>
             {" "}
             <div>
               <h2>Volupté</h2>
-              <h3>A partir de <span>250€ la nuit</span></h3>
-              <p>Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, 
+              <h3>A partir de <span>110 la nuit</span></h3>
+              <p>Fort de ses couleurs apaisantes, Volupté vous accueille dans le confort d'un studio spacieux, 
                 intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.</p>
             </div>
             <button onClick={openModal2} className="gites__items-button">
@@ -179,7 +178,7 @@ Fumeurs:non-fumeurs<br/>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Fort de ses couleurs appaisantes, Volupté vous accueil dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.<br/>
+                Fort de ses couleurs apaisantes, Volupté vous accueille dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.<br/>
                 <br/><b>Dans votre cuisine privative :</b><br/>
 
 Bouilloire électrique<br/>
@@ -200,7 +199,7 @@ Chaise haute pour enfants<br/>
 Table à manger<br/>
 Ustensiles de cuisine<br/>
 
-Dans votre salle de bains privative :<br/>
+<br/><b>Dans votre salle de bains privative :</b><br/>
 Sèche-cheveux<br/>
 Baignoire<br/>
 Articles de toilette gratuits<br/>
@@ -208,12 +207,12 @@ Papier toilette<br/>
 Salle de bains privative<br/>
 Toilettes<br/>
 
-Vue :<br/>
+<br/><b>Vue : </b><br/>
 Terrasse<br/>
 Vue sur le jardin<br/>
-Vue<br/>
+
 Patio<br/>
-Fumeurs:non-fumeurs<br/>
+<b>Fumeurs: non-fumeurs</b><br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -243,7 +242,7 @@ Fumeurs:non-fumeurs<br/>
             {" "}
             <div>
               <h2>Quiétude</h2>
-              <h3>A partir de <span>250€ la nuit</span></h3>
+              <h3>A partir de <span>165€ la nuit</span></h3>
               <p>En quête de quiétude ? Elle vous attend dans ce splendide logement aux aspects modernes et industriels
 </p>
             </div>
@@ -283,7 +282,7 @@ Chaise haute pour enfants<br/>
 Table à manger<br/>
 Ustensiles de cuisine<br/>
 
-Dans votre salle de bains privative :<br/>
+<br/><b>Dans votre salle de bains privative :</b><br/>
 Sèche-cheveux<br/>
 Baignoire<br/>
 Articles de toilette gratuits<br/>
@@ -291,12 +290,12 @@ Papier toilette<br/>
 Salle de bains privative<br/>
 Toilettes<br/>
 
-Vue :<br/>
+<br/><b>Vue : </b><br/>
 Terrasse<br/>
 Vue sur le jardin<br/>
-Vue<br/>
+
 Patio<br/>
-Fumeurs:non-fumeurs<br/>
+<b>Fumeurs: non-fumeurs</b><br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -338,7 +337,7 @@ Fumeurs:non-fumeurs<br/>
             {" "}
             <div>
               <h2>Sérénité</h2>
-              <h3>A partir de <span>250€ la nuit</span></h3>
+              <h3>A partir de <span>165€ la nuit</span></h3>
               <p>Sérénité, quoi de plus agréable que la sérénité. Cet appartement accueillant et chaleureux donnera un confort tout particulier à votre séjour
 </p>
             </div>
@@ -377,7 +376,7 @@ Chaise haute pour enfants<br/>
 Table à manger<br/>
 Ustensiles de cuisine<br/>
 
-Dans votre salle de bains privative :<br/>
+<br/><b>Dans votre salle de bains privative :</b><br/>
 Sèche-cheveux<br/>
 Baignoire<br/>
 Articles de toilette gratuits<br/>
@@ -385,12 +384,12 @@ Papier toilette<br/>
 Salle de bains privative<br/>
 Toilettes<br/>
 
-Vue :<br/>
+<br/><b>Vue : </b><br/>
 Terrasse<br/>
 Vue sur le jardin<br/>
-Vue<br/>
+
 Patio<br/>
-Fumeurs:non-fumeurs<br/>
+<b>Fumeurs: non-fumeurs</b><br/>
 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -443,7 +442,7 @@ Fumeurs:non-fumeurs<br/>
             {" "}
             <div>
               <h2>Bien-être</h2>
-              <h3>A partir de <span>250€ la nuit</span></h3>
+              <h3>A partir de <span>165€ la nuit</span></h3>
               <p>Donnez un sens particulièrement reposant à votre séjour en optant pour le logement bien-être, ses 
               couleurs de nature et son atmosphère détendue
 </p>
@@ -485,7 +484,7 @@ Chaise haute pour enfants<br/>
 Table à manger<br/>
 Ustensiles de cuisine<br/>
 
-Dans votre salle de bains privative :<br/>
+<br/><b>Dans votre salle de bains privative :</b><br/>
 Sèche-cheveux<br/>
 Baignoire<br/>
 Articles de toilette gratuits<br/>
@@ -493,12 +492,12 @@ Papier toilette<br/>
 Salle de bains privative<br/>
 Toilettes<br/>
 
-Vue :<br/>
+<br/><b>Vue : </b><br/>
 Terrasse<br/>
 Vue sur le jardin<br/>
-Vue<br/>
+
 Patio<br/>
-Fumeurs:non-fumeurs<br/>
+<b>Fumeurs: non-fumeurs</b><br/>
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -524,7 +523,7 @@ Fumeurs:non-fumeurs<br/>
           </Modal>
         </div>
         <h2 className="gites__intro__title-2">
-          Votre intimité et la qualité de votre séjours compte à nos yeux. C'est pourquoi nous avons opté pour un équipement haut de gamme, un accueil convivial et chaleureux, ainsi que des logement flexibles qui vous permettent de choisir entre le confort d'un cocon pour se reposer, ou le pied à terre idéal pour s'aventurer au cœur du Vaucluse.
+          Votre intimité et la qualité de votre séjour compte à nos yeux. C'est pourquoi nous avons opté pour un équipement haut de gamme, un accueil convivial et chaleureux, ainsi que des logements flexibles qui vous permettent de choisir entre le confort d'un cocon pour se reposer, ou le pied-à-terre idéal pour s'aventurer au cœur du Vaucluse.
           </h2>
       </div>
     </div>
