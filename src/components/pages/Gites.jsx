@@ -18,15 +18,15 @@ export default function Gites() {
     setIsOpen1(false);
     document.body.style = "overflow: unset";
   }
-  function openModal2() { 
+  function openModal2() {
     setIsOpen2(true);
     document.body.style = "overflow: hidden";
   }
   function closeModal2() {
     setIsOpen2(false);
     document.body.style = "overflow: unset";
-  }  
-  function openModal3() { 
+  }
+  function openModal3() {
     setIsOpen3(true);
     document.body.style = "overflow: hidden";
   }
@@ -34,7 +34,7 @@ export default function Gites() {
     setIsOpen3(false);
     document.body.style = "overflow: unset";
   }
-  function openModal4() { 
+  function openModal4() {
     setIsOpen4(true);
     document.body.style = "overflow: hidden";
   }
@@ -42,7 +42,7 @@ export default function Gites() {
     setIsOpen4(false);
     document.body.style = "overflow: unset";
   }
-  function openModal5() { 
+  function openModal5() {
     setIsOpen5(true);
     document.body.style = "overflow: hidden";
   }
@@ -60,24 +60,30 @@ export default function Gites() {
     <div className="gites">
       <div className="gites__intro">
         <div className="gites__intro-container">
-          <h1 className="gites__intro__title-1">
-          Nos appartements et studios
-          </h1>
-        
+          <h1 className="gites__intro__title-1">Nos appartements et studios</h1>
         </div>
       </div>
       <div className="gites__items-container">
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={require("../../img/gites/Tendresse/IMG_1083.jpg")} alt="" className="gites__items-img-content" />
+            <img
+              src={require("../../img/gites/Tendresse/tendresse1.jpg")}
+              alt=""
+              className="gites__items-img-content"
+            />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Tendresse</h2>
-              <h3>A partir de <span>150€ la nuit</span></h3>
-              <p>Moderne et accueillante, Tendresse se présente en maitre des âmes voyageuses. Simple, chaleureux et intime, voilà un bon compromis pour un séjour de douceur
-             </p>
+              <h3>
+                A partir de <span>110€ la nuit</span>
+              </h3>
+              <p>
+                Moderne et accueillante, Tendresse se présente en maitre des
+                âmes voyageuses. Simple, chaleureux et intime, voilà un bon
+                compromis pour un séjour de douceur
+              </p>
             </div>
             <button onClick={openModal1} className="gites__items-button">
               En savoir plus
@@ -94,55 +100,152 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Moderne et accueillante, Tendresse se présente en maitre des âmes voyageuses. Simple, chaleureux et intime, voilà un bon compromis pour un séjour de douceur<br/>
-
-                <br/><b>Dans votre cuisine privative :</b><br/>
-
-Bouilloire électrique<br/>
-Réfrigérateur<br/>
-Espace repas extérieur<br/>
-Cuisine<br/>
-Grille-pain<br/>
-Plateau / bouilloire<br/>
-Lave-vaisselle<br/>
-Machine à café<br/>
-Four<br/>
-Plaque de cuisson<br/>
-Coin repas<br/>
-Micro-ondes<br/>
-Barbecue<br/>
-Mobilier d’extérieur<br/>
-Chaise haute pour enfants<br/>
-Table à manger<br/>
-Ustensiles de cuisine<br/>
-
-<br/><b>Dans votre salle de bains privative :</b><br/>
-Sèche-cheveux<br/>
-Baignoire<br/>
-Articles de toilette gratuits<br/>
-Papier toilette<br/>
-Salle de bains privative<br/>
-Toilettes<br/>
-
-<br/><b>Vue : </b><br/>
-Terrasse<br/>
-Vue sur le jardin<br/>
-
-Patio<br/>
-<b>Fumeurs: non-fumeurs</b><br/>
+                  Moderne et accueillante, Tendresse se présente en maitre des
+                  âmes voyageuses. Simple, chaleureux et intime, voilà un bon
+                  compromis pour un séjour de douceur
+                  <br />
+                  <br />
+                  <b>Dans votre cuisine privative :</b>
+                  <br />
+                  Bouilloire électrique
+                  <br />
+                  Réfrigérateur
+                  <br />
+                  Espace repas extérieur
+                  <br />
+                  Cuisine
+                  <br />
+                  Grille-pain
+                  <br />
+                  Plateau / bouilloire
+                  <br />
+                  Lave-vaisselle
+                  <br />
+                  Machine à café
+                  <br />
+                  Four
+                  <br />
+                  Plaque de cuisson
+                  <br />
+                  Coin repas
+                  <br />
+                  Micro-ondes
+                  <br />
+                  Barbecue
+                  <br />
+                  Mobilier d’extérieur
+                  <br />
+                  Chaise haute pour enfants
+                  <br />
+                  Table à manger
+                  <br />
+                  Ustensiles de cuisine
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bains privative :</b>
+                  <br />
+                  Sèche-cheveux
+                  <br />
+                  Baignoire
+                  <br />
+                  Articles de toilette gratuits
+                  <br />
+                  Papier toilette
+                  <br />
+                  Salle de bains privative
+                  <br />
+                  Toilettes
+                  <br />
+                  <br />
+                  <b>Vue : </b>
+                  <br />
+                  Terrasse
+                  <br />
+                  Vue sur le jardin
+                  <br />
+                  Patio
+                  <br />
+                  <b>Fumeurs: non-fumeurs</b>
+                  <br />
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-                <img src={require("../../img/gites/Tendresse/IMG_1083.jpg")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_1084.jpg")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_1087.jpg")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_1090.jpg")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_1091.jpg")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_1096.jpg")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_1105.jpg")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_4496.JPG")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_4497.JPG")} alt="" />
-                <img src={require("../../img/gites/Tendresse/IMG_4500.JPG")} alt="" />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse1.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse2.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse3.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse4.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse5.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse6.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse7.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse8.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse9.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse10.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse11.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse12.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse13.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse14.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse15.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse16.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse17.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse18.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Tendresse/tendresse19.jpg")}
+                  alt=""
+                />
               </div>
             </div>
 
@@ -153,15 +256,25 @@ Patio<br/>
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={require("../../img/gites/Volupté/IMG_1065.jpg")} alt="" className="gites__items-img-content" />
+            <img
+              src={require("../../img/gites/Volupté/volupté3.jpg")}
+              alt=""
+              className="gites__items-img-content"
+            />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Volupté</h2>
-              <h3>A partir de <span>110 la nuit</span></h3>
-              <p>Fort de ses couleurs apaisantes, Volupté vous accueille dans le confort d'un studio spacieux, 
-                intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.</p>
+              <h3>
+                A partir de <span>110€ la nuit</span>
+              </h3>
+              <p>
+                Fort de ses couleurs apaisantes, Volupté vous accueille dans le
+                confort d'un studio spacieux, intime et amoureux. Tout équipé,
+                ses 36m² vous offrent toutes les commodités essentielles à un
+                bon séjour.
+              </p>
             </div>
             <button onClick={openModal2} className="gites__items-button">
               En savoir plus
@@ -178,54 +291,92 @@ Patio<br/>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Fort de ses couleurs apaisantes, Volupté vous accueille dans le confort d'un studio spacieux, intime et amoureux. Tout équipé, ses 36m² vous offrent toutes les commodités essentielles à un bon séjour.<br/>
-                <br/><b>Dans votre cuisine privative :</b><br/>
-
-Bouilloire électrique<br/>
-Réfrigérateur<br/>
-Espace repas extérieur<br/>
-Cuisine<br/>
-Grille-pain<br/>
-Plateau / bouilloire<br/>
-Lave-vaisselle<br/>
-Machine à café<br/>
-Four<br/>
-Plaque de cuisson<br/>
-Coin repas<br/>
-Micro-ondes<br/>
-Barbecue<br/>
-Mobilier d’extérieur<br/>
-Chaise haute pour enfants<br/>
-Table à manger<br/>
-Ustensiles de cuisine<br/>
-
-<br/><b>Dans votre salle de bains privative :</b><br/>
-Sèche-cheveux<br/>
-Baignoire<br/>
-Articles de toilette gratuits<br/>
-Papier toilette<br/>
-Salle de bains privative<br/>
-Toilettes<br/>
-
-<br/><b>Vue : </b><br/>
-Terrasse<br/>
-Vue sur le jardin<br/>
-
-Patio<br/>
-<b>Fumeurs: non-fumeurs</b><br/>
+                  Fort de ses couleurs apaisantes, Volupté vous accueille dans
+                  le confort d'un studio spacieux, intime et amoureux. Tout
+                  équipé, ses 36m² vous offrent toutes les commodités
+                  essentielles à un bon séjour.
+                  <br />
+                  <br />
+                  <b>Dans votre cuisine privative :</b>
+                  <br />
+                  Bouilloire électrique
+                  <br />
+                  Réfrigérateur
+                  <br />
+                  Espace repas extérieur
+                  <br />
+                  Cuisine
+                  <br />
+                  Grille-pain
+                  <br />
+                  Plateau / bouilloire
+                  <br />
+                  Lave-vaisselle
+                  <br />
+                  Machine à café
+                  <br />
+                  Four
+                  <br />
+                  Plaque de cuisson
+                  <br />
+                  Coin repas
+                  <br />
+                  Micro-ondes
+                  <br />
+                  Barbecue
+                  <br />
+                  Mobilier d’extérieur
+                  <br />
+                  Chaise haute pour enfants
+                  <br />
+                  Table à manger
+                  <br />
+                  Ustensiles de cuisine
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bains privative :</b>
+                  <br />
+                  Sèche-cheveux
+                  <br />
+                  Baignoire
+                  <br />
+                  Articles de toilette gratuits
+                  <br />
+                  Papier toilette
+                  <br />
+                  Salle de bains privative
+                  <br />
+                  Toilettes
+                  <br />
+                  <br />
+                  <b>Vue : </b>
+                  <br />
+                  Terrasse
+                  <br />
+                  Vue sur le jardin
+                  <br />
+                  Patio
+                  <br />
+                  <b>Fumeurs: non-fumeurs</b>
+                  <br />
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-              <img src={require("../../img/gites/Volupté/IMG_1065.jpg")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_1067.jpg")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_1068.jpg")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_1075.jpg")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_1079.jpg")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_4504.JPG")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_4505.JPG")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_4508.JPG")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_4509.JPG")} alt="" />
-              <img src={require("../../img/gites/Volupté/IMG_4510.JPG")} alt="" />
+              <img src={require("../../img/gites/Volupté/volupté1.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté2.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté3.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté4.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté5.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté6.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté7.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté8.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté9.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté10.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté11.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté12.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté13.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté14.jpg")} alt="" />
+<img src={require("../../img/gites/Volupté/volupté15.jpg")} alt="" />
               </div>
             </div>
 
@@ -236,15 +387,23 @@ Patio<br/>
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={require("../../img/gites/Quiétude/IMG_1061.jpg")} alt="" className="gites__items-img-content" />
+            <img
+              src={require("../../img/gites/Quiétude/quiétude15.jpg")}
+              alt=""
+              className="gites__items-img-content"
+            />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Quiétude</h2>
-              <h3>A partir de <span>165€ la nuit</span></h3>
-              <p>En quête de quiétude ? Elle vous attend dans ce splendide logement aux aspects modernes et industriels
-</p>
+              <h3>
+                A partir de <span>165€ la nuit</span>
+              </h3>
+              <p>
+                En quête de quiétude ? Elle vous attend dans ce splendide
+                logement aux aspects modernes et industriels
+              </p>
             </div>
             <button onClick={openModal3} className="gites__items-button">
               En savoir plus
@@ -261,66 +420,223 @@ Patio<br/>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                En quête de quiétude ? Elle vous attend dans ce splendide logement aux aspects modernes et industriels<br/>
-                <br/><b>Dans votre cuisine privative :</b><br/>
-
-Bouilloire électrique<br/>
-Réfrigérateur<br/>
-Espace repas extérieur<br/>
-Cuisine<br/>
-Grille-pain<br/>
-Plateau / bouilloire<br/>
-Lave-vaisselle<br/>
-Machine à café<br/>
-Four<br/>
-Plaque de cuisson<br/>
-Coin repas<br/>
-Micro-ondes<br/>
-Barbecue<br/>
-Mobilier d’extérieur<br/>
-Chaise haute pour enfants<br/>
-Table à manger<br/>
-Ustensiles de cuisine<br/>
-
-<br/><b>Dans votre salle de bains privative :</b><br/>
-Sèche-cheveux<br/>
-Baignoire<br/>
-Articles de toilette gratuits<br/>
-Papier toilette<br/>
-Salle de bains privative<br/>
-Toilettes<br/>
-
-<br/><b>Vue : </b><br/>
-Terrasse<br/>
-Vue sur le jardin<br/>
-
-Patio<br/>
-<b>Fumeurs: non-fumeurs</b><br/>
+                  En quête de quiétude ? Elle vous attend dans ce splendide
+                  logement aux aspects modernes et industriels
+                  <br />
+                  <br />
+                  <b>Dans votre cuisine privative :</b>
+                  <br />
+                  Bouilloire électrique
+                  <br />
+                  Réfrigérateur
+                  <br />
+                  Espace repas extérieur
+                  <br />
+                  Cuisine
+                  <br />
+                  Grille-pain
+                  <br />
+                  Plateau / bouilloire
+                  <br />
+                  Lave-vaisselle
+                  <br />
+                  Machine à café
+                  <br />
+                  Four
+                  <br />
+                  Plaque de cuisson
+                  <br />
+                  Coin repas
+                  <br />
+                  Micro-ondes
+                  <br />
+                  Barbecue
+                  <br />
+                  Mobilier d’extérieur
+                  <br />
+                  Chaise haute pour enfants
+                  <br />
+                  Table à manger
+                  <br />
+                  Ustensiles de cuisine
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bains privative :</b>
+                  <br />
+                  Sèche-cheveux
+                  <br />
+                  Baignoire
+                  <br />
+                  Articles de toilette gratuits
+                  <br />
+                  Papier toilette
+                  <br />
+                  Salle de bains privative
+                  <br />
+                  Toilettes
+                  <br />
+                  <br />
+                  <b>Vue : </b>
+                  <br />
+                  Terrasse
+                  <br />
+                  Vue sur le jardin
+                  <br />
+                  Patio
+                  <br />
+                  <b>Fumeurs: non-fumeurs</b>
+                  <br />
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-              <img src={require("../../img/gites/Quiétude/IMG_1001.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1003.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1009.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1016.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1018.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1019.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1044.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1047.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1052.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1056.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1057.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1061.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG_1063.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0001.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0002.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0003.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0018.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0019.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0020.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0021.jpg")} alt="" />
-              <img src={require("../../img/gites/Quiétude/IMG-20220929-WA0022.jpg")} alt="" />
-
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude1.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude2.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude3.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude4.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude5.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude6.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude7.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude8.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude9.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude10.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude11.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude12.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude13.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude14.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude15.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude16.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude17.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude18.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude19.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude20.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude21.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude22.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude23.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude24.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude25.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude26.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude27.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude28.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude29.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude30.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude31.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude32.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude33.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude34.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude35.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude36.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Quiétude/quiétude37.jpg")}
+                  alt=""
+                />
               </div>
             </div>
 
@@ -331,15 +647,24 @@ Patio<br/>
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={require("../../img/gites/Sérénité/IMG_0937.jpg")} alt="" className="gites__items-img-content" />
+            <img
+              src={require("../../img/gites/Sérénité/sérénité18.jpg")}
+              alt=""
+              className="gites__items-img-content"
+            />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Sérénité</h2>
-              <h3>A partir de <span>165€ la nuit</span></h3>
-              <p>Sérénité, quoi de plus agréable que la sérénité. Cet appartement accueillant et chaleureux donnera un confort tout particulier à votre séjour
-</p>
+              <h3>
+                A partir de <span>165€ la nuit</span>
+              </h3>
+              <p>
+                Sérénité, quoi de plus agréable que la sérénité. Cet appartement
+                accueillant et chaleureux donnera un confort tout particulier à
+                votre séjour
+              </p>
             </div>
             <button onClick={openModal4} className="gites__items-button">
               En savoir plus
@@ -355,77 +680,157 @@ Patio<br/>
             <h3>Pour 8 personnes</h3>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
-              <p>Sérénité, quoi de plus agréable que la sérénité. Cet appartement accueillant et chaleureux donnera un confort tout particulier à votre séjour<br/>
-              <br/><b>Dans votre cuisine privative :</b><br/>
-
-Bouilloire électrique<br/>
-Réfrigérateur<br/>
-Espace repas extérieur<br/>
-Cuisine<br/>
-Grille-pain<br/>
-Plateau / bouilloire<br/>
-Lave-vaisselle<br/>
-Machine à café<br/>
-Four<br/>
-Plaque de cuisson<br/>
-Coin repas<br/>
-Micro-ondes<br/>
-Barbecue<br/>
-Mobilier d’extérieur<br/>
-Chaise haute pour enfants<br/>
-Table à manger<br/>
-Ustensiles de cuisine<br/>
-
-<br/><b>Dans votre salle de bains privative :</b><br/>
-Sèche-cheveux<br/>
-Baignoire<br/>
-Articles de toilette gratuits<br/>
-Papier toilette<br/>
-Salle de bains privative<br/>
-Toilettes<br/>
-
-<br/><b>Vue : </b><br/>
-Terrasse<br/>
-Vue sur le jardin<br/>
-
-Patio<br/>
-<b>Fumeurs: non-fumeurs</b><br/>
-</p>
+                <p>
+                  Sérénité, quoi de plus agréable que la sérénité. Cet
+                  appartement accueillant et chaleureux donnera un confort tout
+                  particulier à votre séjour
+                  <br />
+                  <br />
+                  <b>Dans votre cuisine privative :</b>
+                  <br />
+                  Bouilloire électrique
+                  <br />
+                  Réfrigérateur
+                  <br />
+                  Espace repas extérieur
+                  <br />
+                  Cuisine
+                  <br />
+                  Grille-pain
+                  <br />
+                  Plateau / bouilloire
+                  <br />
+                  Lave-vaisselle
+                  <br />
+                  Machine à café
+                  <br />
+                  Four
+                  <br />
+                  Plaque de cuisson
+                  <br />
+                  Coin repas
+                  <br />
+                  Micro-ondes
+                  <br />
+                  Barbecue
+                  <br />
+                  Mobilier d’extérieur
+                  <br />
+                  Chaise haute pour enfants
+                  <br />
+                  Table à manger
+                  <br />
+                  Ustensiles de cuisine
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bains privative :</b>
+                  <br />
+                  Sèche-cheveux
+                  <br />
+                  Baignoire
+                  <br />
+                  Articles de toilette gratuits
+                  <br />
+                  Papier toilette
+                  <br />
+                  Salle de bains privative
+                  <br />
+                  Toilettes
+                  <br />
+                  <br />
+                  <b>Vue : </b>
+                  <br />
+                  Terrasse
+                  <br />
+                  Vue sur le jardin
+                  <br />
+                  Patio
+                  <br />
+                  <b>Fumeurs: non-fumeurs</b>
+                  <br />
+                </p>
               </div>
               <div className="Modal__section Modal__section-img">
-              <img src={require("../../img/gites/Sérénité/IMG_0934.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0936.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0937.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0942.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0943.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0951.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0956.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0958.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0962.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0969.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0973.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0980.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_0987.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4513.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4516.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4519.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4523.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4526.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4519.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4530.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4531.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4533.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4534.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4537.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4541.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4542.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4543.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG_4544.JPG")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0027.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0028.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0029.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0030.jpg")} alt="" />
-              <img src={require("../../img/gites/Sérénité/IMG-20220929-WA0031.jpg")} alt="" />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité1.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité2.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité3.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité4.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité5.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité6.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité7.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité8.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité9.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité10.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité11.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité12.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité13.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité14.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité15.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité16.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité17.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité18.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité20.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Sérénité/sérénité21.jpg")}
+                  alt=""
+                />
               </div>
             </div>
 
@@ -436,16 +841,24 @@ Patio<br/>
         </div>
         <div className=" gites__items" data-aos="flip-up">
           <div className="gites__items-img">
-            <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0007.jpg")} alt="" className="gites__items-img-content" />
+            <img
+              src={require("../../img/gites/Bien-être/bien-être4.jpg")}
+              alt=""
+              className="gites__items-img-content"
+            />
           </div>
           <div className="gites__items-infos">
             {" "}
             <div>
               <h2>Bien-être</h2>
-              <h3>A partir de <span>165€ la nuit</span></h3>
-              <p>Donnez un sens particulièrement reposant à votre séjour en optant pour le logement bien-être, ses 
-              couleurs de nature et son atmosphère détendue
-</p>
+              <h3>
+                A partir de <span>165€ la nuit</span>
+              </h3>
+              <p>
+                Donnez un sens particulièrement reposant à votre séjour en
+                optant pour le logement bien-être, ses couleurs de nature et son
+                atmosphère détendue
+              </p>
             </div>
             <button onClick={openModal5} className="gites__items-button">
               En savoir plus
@@ -462,58 +875,172 @@ Patio<br/>
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                Donnez un sens particulièrement reposant à votre séjour en optant pour le logement bien-être, ses 
-              couleurs de nature et son atmosphère détendue<br/>
-              <br/><b>Dans votre cuisine privative :</b><br/>
-
-Bouilloire électrique<br/>
-Réfrigérateur<br/>
-Espace repas extérieur<br/>
-Cuisine<br/>
-Grille-pain<br/>
-Plateau / bouilloire<br/>
-Lave-vaisselle<br/>
-Machine à café<br/>
-Four<br/>
-Plaque de cuisson<br/>
-Coin repas<br/>
-Micro-ondes<br/>
-Barbecue<br/>
-Mobilier d’extérieur<br/>
-Chaise haute pour enfants<br/>
-Table à manger<br/>
-Ustensiles de cuisine<br/>
-
-<br/><b>Dans votre salle de bains privative :</b><br/>
-Sèche-cheveux<br/>
-Baignoire<br/>
-Articles de toilette gratuits<br/>
-Papier toilette<br/>
-Salle de bains privative<br/>
-Toilettes<br/>
-
-<br/><b>Vue : </b><br/>
-Terrasse<br/>
-Vue sur le jardin<br/>
-
-Patio<br/>
-<b>Fumeurs: non-fumeurs</b><br/>
+                  Donnez un sens particulièrement reposant à votre séjour en
+                  optant pour le logement bien-être, ses couleurs de nature et
+                  son atmosphère détendue
+                  <br />
+                  <br />
+                  <b>Dans votre cuisine privative :</b>
+                  <br />
+                  Bouilloire électrique
+                  <br />
+                  Réfrigérateur
+                  <br />
+                  Espace repas extérieur
+                  <br />
+                  Cuisine
+                  <br />
+                  Grille-pain
+                  <br />
+                  Plateau / bouilloire
+                  <br />
+                  Lave-vaisselle
+                  <br />
+                  Machine à café
+                  <br />
+                  Four
+                  <br />
+                  Plaque de cuisson
+                  <br />
+                  Coin repas
+                  <br />
+                  Micro-ondes
+                  <br />
+                  Barbecue
+                  <br />
+                  Mobilier d’extérieur
+                  <br />
+                  Chaise haute pour enfants
+                  <br />
+                  Table à manger
+                  <br />
+                  Ustensiles de cuisine
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bains privative :</b>
+                  <br />
+                  Sèche-cheveux
+                  <br />
+                  Baignoire
+                  <br />
+                  Articles de toilette gratuits
+                  <br />
+                  Papier toilette
+                  <br />
+                  Salle de bains privative
+                  <br />
+                  Toilettes
+                  <br />
+                  <br />
+                  <b>Vue : </b>
+                  <br />
+                  Terrasse
+                  <br />
+                  Vue sur le jardin
+                  <br />
+                  Patio
+                  <br />
+                  <b>Fumeurs: non-fumeurs</b>
+                  <br />
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0005.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0006.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0007.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0008.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0009.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0010.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0011.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0012.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0014.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0015.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0016.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0025.jpg")} alt="" />
-              <img src={require("../../img/gites/Bien-être/IMG-20220929-WA0026.jpg")} alt="" />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être1.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être2.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être3.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être4.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être5.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être6.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être7.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être8.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être9.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être10.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être11.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être12.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être13.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être14.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être15.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être16.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être17.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être18.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être19.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être20.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être21.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être22.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être23.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Bien-être/bien-être24.jpg")}
+                  alt=""
+                />
               </div>
             </div>
 
@@ -523,8 +1050,12 @@ Patio<br/>
           </Modal>
         </div>
         <h2 className="gites__intro__title-2">
-          Votre intimité et la qualité de votre séjour compte à nos yeux. C'est pourquoi nous avons opté pour un équipement haut de gamme, un accueil convivial et chaleureux, ainsi que des logements flexibles qui vous permettent de choisir entre le confort d'un cocon pour se reposer, ou le pied-à-terre idéal pour s'aventurer au cœur du Vaucluse.
-          </h2>
+          Votre intimité et la qualité de votre séjour compte à nos yeux. C'est
+          pourquoi nous avons opté pour un équipement haut de gamme, un accueil
+          convivial et chaleureux, ainsi que des logements flexibles qui vous
+          permettent de choisir entre le confort d'un cocon pour se reposer, ou
+          le pied-à-terre idéal pour s'aventurer au cœur du Vaucluse.
+        </h2>
       </div>
     </div>
   );
