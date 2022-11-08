@@ -1,7 +1,7 @@
 {
   "name": "plan-des-devens-website",
   "version": "0.1.0",
-  "homepage": "https://tom-ruiz.github.io/plan-des-devens-website",
+  "homepage": ".",
   "private": true,
   "dependencies": {
     "@emailjs/browser": "^3.6.2",
