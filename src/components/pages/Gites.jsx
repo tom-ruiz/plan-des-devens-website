@@ -61,6 +61,7 @@ export default function Gites() {
       <div className="gites__intro">
         <div className="gites__intro-container">
           <h1 className="gites__intro__title-1">Nos appartements et studios</h1>
+          <p>Venez découvrir les différents styles et univers dans nos logements où tout est réuni pour que vous puissiez passer le meilleur des séjours au sein de notre Provence bien-aimée.</p>
         </div>
       </div>
       <div className="gites__items-container">
