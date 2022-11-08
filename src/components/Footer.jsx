@@ -1,4 +1,4 @@
-import { FormControl, InputLabel, MenuItem, Select } from "@mui/material";
+import { FaFacebookSquare, FaInstagram } from 'react-icons/fa';
 import React from "react";
 import "../style/footer.scss";
 
@@ -35,6 +35,13 @@ export default function FooterComponent() {
             contact@domaineplandesdevens.com<br />
             +33 6.26.96.33.29
           </p>
+        </div>
+        <div>
+          <h2>Réseaux sociaux</h2>
+          <div className="footer__rs">
+          <a className="footer__rs-button" href="https://www.facebook.com/profile.php?id=100078405116794" target="_blank" rel='noreferrer'><FaFacebookSquare/></a>
+          <a className="footer__rs-button" href="https://www.instagram.com/domaineplandesdevens/" target="_blank" rel='noreferrer'><FaInstagram/></a>
+          </div>
         </div>
         <div>
           <h2>Plan</h2>

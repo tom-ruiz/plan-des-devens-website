@@ -60,4 +60,29 @@
             margin-top: 16px;
         }
     }
+
+    &__rs {
+        display: flex;
+        flex-direction: row;
+        gap: 10px;
+        justify-content: center;
+
+        &-button {
+            background-color: $color-orange;
+            border-radius: 50%;
+            cursor: pointer;
+            border: none;
+            height: 50px;
+            width: 50px;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+
+            svg {
+                font-size: 23px;
+                color: white;
+            }
+        }
+
+    }
 }
