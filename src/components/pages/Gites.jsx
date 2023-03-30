@@ -271,7 +271,7 @@ export default function Gites() {
                 A partir de <span>110€ la nuit</span>
               </h3>
               <p>
-                Fort de ses couleurs apaisantes, Volupté vous accueille dans le
+                Volupté vous accueille dans le
                 confort d'un studio spacieux, intime et amoureux. Tout équipé,
                 ses 36m² vous offrent toutes les commodités essentielles à un
                 bon séjour.

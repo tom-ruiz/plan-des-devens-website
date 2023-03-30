@@ -64,6 +64,7 @@
             align-items: center;
             flex-direction: column;
             background-color: $color-orange;
+            padding: 2em 0;
 
             @media(max-width: $max-width-value) {
                 height: 100%;
