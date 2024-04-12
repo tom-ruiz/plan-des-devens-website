@@ -34,7 +34,7 @@
         &-infos {
             display: flex;
             gap: 40px;
-            height: 70vh;
+            height: 80vh;
             justify-content: center;
             align-items: center;
 
@@ -45,7 +45,7 @@
             }
 
             &__content {
-                width: 50%;
+                width: 90%;
                 @media(max-width: $max-width-value) {
                    width: unset;
                 }

@@ -22,7 +22,7 @@
 
         &-container {
             height: 40%;
-            width: 60%;
+            width: 70%;
             background-color: #fff;
             padding: 2em;
             border-top-left-radius: 20px;
@@ -64,8 +64,8 @@ line-height: 32px;
 
     &__items {
         background-color: $color-orange;
-        height: 40vh;
-        width: 60%;
+        height: 50vh;
+        width: 70%;
         display: flex;
         justify-content: center;
         flex-direction: row;
@@ -94,7 +94,7 @@ line-height: 32px;
             flex-direction: column;
             align-items: center;
             gap: 50px;
-            padding: 4em 0 4em 0;
+            padding: 22em 0 4em 0;
 
             @media(max-width: $max-width-value) {
                 width: 100%;
@@ -190,8 +190,12 @@ line-height: 32px;
             }
 
             p{
-                font-size: 12px;
+                font-size: 15px;
                 line-height: 16px;
+            }
+
+            h2{
+                margin: 0;
             }
         }
     }

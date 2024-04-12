@@ -17,25 +17,34 @@ export default function Home() {
       </div>
       <div className="home__container-infos p-global" data-aos="fade-up">
         <div className="home__container-infos__content">
-          <h1>Le gite</h1>
+          <h1>Le domaine</h1>
           <p>
-          Proche du village des Ocres de Roussillon, du majestueux village perché de Bonnieux
-           et de l'emblématique vue du village de Gordes. 
-          Situé dans le triangle d'or du Vaucluse, le Domaine Plan des Devens vous invite à 
-          découvrir ces paysages qui abritent les plus beaux villages de France. 
-          Nous serions ravis de vous accueillir dans l'un de nos logements, tous uniques, pour allier découverte, 
-          dépaysement, calme et sérénité.
+            Situé sur la commune de Roussillon, bien connue pour ses couleurs
+            extraordinaires et ses falaises d'ocres, le Domaine vous invite au
+            repos et à la détente.<br/> <b>Notre signature:</b> calme et confort, respect et
+            convivialité.<br/> <br/>  Le grand parc arboré de 2 hectares vous permettra de
+            profiter de la fraicheur apportée par l'ombre de ses différentes
+            essences d'arbres. Vous pourrez vous y promener, vous y reposer,
+            vous y faire chouchouter, vous y amuser, et cela sans vous gêner les
+            uns les autres, comme le disent Laurent et Sophie "<i>c'est un lieu
+            paisible où il fait bon se ressourcer, il y a beaucoup d'espace et
+            la piscine est bien agréable</i>" (août 2023).<br/><br/> Son emplacement au cœur
+            du triangle d'or du Luberon (les communes de Roussillon, Bonnieux et
+            Gordes) vous donnera tout le loisir de rayonner vers les plus beaux
+            villages du Luberon. D'avis d'hôtes "<i>le domaine est idéalement situé
+            pour profiter de tous les magnifiques villages aux alentours en
+            moins de 15 minutes</i>" Carine M (août 2023).
           </p>
         </div>
         <div className="home__container-infos__content-carousel">
-        <CarouselComponent />
+          <CarouselComponent />
         </div>
       </div>
       <div className="home__container-plus">
         <h1 className="home__container-plus-title">En savoir plus</h1>
         <p className="home__container-plus-p">
-        Découvrez nos logements uniques et consulter notre liste de partenaires locaux, 
-        créateurs des richesses tu terroir Vauclusien.
+          Découvrez nos logements uniques et consulter notre liste de
+          partenaires locaux, créateurs des richesses tu terroir Vauclusien.
         </p>
         <div className="home__container-plus__pictures-container">
           <a
@@ -48,7 +57,7 @@ export default function Home() {
               src={home1}
               alt="home"
             />
-            <h1 className="home__container-plus__pictures__text">Le gite</h1>
+            <h1 className="home__container-plus__pictures__text">Les gîtes</h1>
           </a>
           <a
             className="home__container-plus__pictures"
