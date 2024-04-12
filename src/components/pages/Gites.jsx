@@ -61,7 +61,43 @@ export default function Gites() {
       <div className="gites__intro">
         <div className="gites__intro-container">
           <h1 className="gites__intro__title-1">Nos appartements et studios</h1>
-          <p>Venez découvrir les différents styles et univers dans nos logements où tout est réuni pour que vous puissiez passer le meilleur des séjours au sein de notre Provence bien-aimée.</p>
+          <p>
+            Le Domaine dispose de 3 appartements avec 2 chambres, et de 2
+            studios. <br />
+            Chaque gîte propose sa terrasse privative équipée d'un{" "}
+            <b>coin repas</b>, d'un <b>coin salon</b> et d'un{" "}
+            <b>barbecue Weber électrique.</b> Chacun a sa propre décoration, son
+            propre univers, et est bien sûr équipé de la <b>climatisation.</b>{" "}
+            Votre confort, la qualité des équipements, ont été notre priorité
+            pour vous offrir un séjour inoubliable dans notre Domaine, au cœur
+            de notre beau Luberon. "
+            <i>
+              Chaque logement est décoré avec goût et dispose de sa propre
+              ambiance moderne et cosy. Le cadre est propice au bien-être.
+            </i>
+            " (Charlène, juillet 2022)
+            <br />
+            <br /> L'été, nous vous accueillerons avec un apéritif de bienvenue
+            partagé sous notre belle treille. "
+            <i>
+              Un accueil convivial et chaleureux avec un pot d'accueil des plus
+              agréables.
+            </i>
+            " (Carole et Eric, août 2022) <br />
+            Sur le Domaine, vous avez à disposition une table de{" "}
+            <b>tennis de table</b>, un <b>terrain de badminton</b>, un{" "}
+            <b>terrain de pétanque</b>, des jeux de
+            <b>Mölkyy</b>, des <b>jeux de raquettes</b> pour les enfants, un{" "}
+            <b>ballon de volley</b>, un <b>ballon de foot</b>, un{" "}
+            <b>portique</b>, des <b>jeux de société</b>, une
+            <b>bibliothèque</b>.
+            <br /> Vous trouverez également un kiosque dédié aux massages en
+            extérieur, avec notre partenaire "massages", ainsi que différents
+            lieux de repos avec des hamacs, des fauteuils... <br />
+            Vos véhicules trouveront leur place sous leur car-port, avec à
+            disposition (en option) une prise de recharge pour véhicules
+            électriques.
+          </p>
         </div>
       </div>
       <div className="gites__items-container">
@@ -77,13 +113,12 @@ export default function Gites() {
             {" "}
             <div>
               <h2>Tendresse</h2>
-              <h3>
-                A partir de <span>110€ la nuit</span>
-              </h3>
+              <h3>Pour 2 personnes</h3>
               <p>
-                Moderne et accueillante, Tendresse se présente en maitre des
-                âmes voyageuses. Simple, chaleureux et intime, voilà un bon
-                compromis pour un séjour de douceur
+                Espace de 36 m2, aux couleurs beige et noire, où tout est mis à
+                votre disposition pour vous offrir un séjour agréable. Douceur
+                de vivre et repos seront votre programme. Il est bien sûr équipé
+                de la climatisation.
               </p>
             </div>
             <button onClick={openModal1} className="gites__items-button">
@@ -101,73 +136,113 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                  Moderne et accueillante, Tendresse se présente en maitre des
-                  âmes voyageuses. Simple, chaleureux et intime, voilà un bon
-                  compromis pour un séjour de douceur
+                  Le studio Tendresse vous accueillera dans un espace de 36 m2,
+                  aux couleurs beige et noire, où tout est mis à votre
+                  disposition pour vous offrir un séjour agréable. Douceur de
+                  vivre et repos seront votre programme. Il est bien sûr équipé
+                  de la climatisation.
                   <br />
                   <br />
-                  <b>Dans votre cuisine privative :</b>
+                  <b>Dans votre coin cuisine :</b>
+                  <br /> Réfrigérateur / congélateur vintage
                   <br />
-                  Bouilloire électrique
+                  Plaque à induction
                   <br />
-                  Réfrigérateur
-                  <br />
-                  Espace repas extérieur
-                  <br />
-                  Cuisine
-                  <br />
-                  Grille-pain
-                  <br />
-                  Plateau / bouilloire
-                  <br />
-                  Lave-vaisselle
-                  <br />
-                  Machine à café
+                  Hotte aspirante
                   <br />
                   Four
                   <br />
-                  Plaque de cuisson
-                  <br />
-                  Coin repas
-                  <br />
                   Micro-ondes
                   <br />
-                  Barbecue
+                  Lave-vaisselle
                   <br />
-                  Mobilier d’extérieur
+                  Lave-linge
                   <br />
-                  Chaise haute pour enfants
+                  Cafetière électrique
                   <br />
-                  Table à manger
+                  Bouilloire électrique
                   <br />
-                  Ustensiles de cuisine
+                  Grille-pain
+                  <br />
+                  Ustensiles de cuisine / Vaisselle
+                  <br />
+                  Aspirateur
+                  <br />
+                  Balai, serpillère, pelle et balayette
+                  <br />
+                  Table à repasser
+                  <br />
+                  Fer à repasser
+                  <br />
+                  Produits d'entretien
+                  <br />
+                  Liquide vaisselle
+                  <br />
+                  Savon
+                  <br />
+                  Torchons
+                  <br />
+                  Îlot central avec 2 tabourets hauts
                   <br />
                   <br />
                   <b>Dans votre salle de bains privative :</b>
                   <br />
+                  Baignoire avec rideau de douche
+                  <br />
+                  distributeur savon / shampoing bio
+                  <br />
                   Sèche-cheveux
                   <br />
-                  Baignoire
+                  Poubelle
                   <br />
-                  Articles de toilette gratuits
+                  Miroir en pied
                   <br />
-                  Papier toilette
-                  <br />
-                  Salle de bains privative
+                  Sèche-serviettes électrique
                   <br />
                   Toilettes
                   <br />
+                  Papier toilettes
+                  <br />2 draps de bain et 2 serviettes Linvosges
                   <br />
-                  <b>Vue : </b>
                   <br />
-                  Terrasse
+                  <b>Côté Nuit :</b>
                   <br />
-                  Vue sur le jardin
+                  Lit en 160 qualité hôtelière, fait à votre arrivée
+                  <br />4 oreillers Linvosges
                   <br />
-                  Patio
+                  Couette Linvosges
                   <br />
-                  <b>Fumeurs: non-fumeurs</b>
+                  Linge de lit Linvosges
                   <br />
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
+                  <br />
+                  Commode et portant
+                  <br />
+                  <br />
+                  <b>Côté salon :</b>
+                  <br />
+                  Canapé fixe
+                  <br />
+                  Table basse
+                  <br />
+                  TV 4K grand écran (TNT, satellite, Netflix, chromcast,
+                  Spotify)
+                  <br />
+                  Enceintes connectées bluetooth
+                  <br />
+                  <br />
+                  <b>Côté terrasse:</b>
+                  <br />
+                  Coin repas
+                  <br />
+                  Coin salon
+                  <br />
+                  Barbecue électrique Weber
+                  <br />
+                  Séchoir à linge
+                  <br />
+                  Vue sur la cour centrale du Domaine
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -267,14 +342,12 @@ export default function Gites() {
             {" "}
             <div>
               <h2>Volupté</h2>
-              <h3>
-                A partir de <span>110€ la nuit</span>
-              </h3>
+              <h3>Pour 2 personnes</h3>
               <p>
-                Volupté vous accueille dans le
-                confort d'un studio spacieux, intime et amoureux. Tout équipé,
-                ses 36m² vous offrent toutes les commodités essentielles à un
-                bon séjour.
+                Le studio Volupté vous invite à la douceur de vivre avec ses
+                couleurs rose et beige. Ses 36 m2 vous offriront un espace
+                intime et amoureux, où le confort reste le maître-mot. Il est
+                bien sûr équipé de la climatisation.
               </p>
             </div>
             <button onClick={openModal2} className="gites__items-button">
@@ -292,92 +365,175 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                  Fort de ses couleurs apaisantes, Volupté vous accueille dans
-                  le confort d'un studio spacieux, intime et amoureux. Tout
-                  équipé, ses 36m² vous offrent toutes les commodités
-                  essentielles à un bon séjour.
+                  Le studio Volupté vous invite à la douceur de vivre avec ses
+                  couleurs rose et beige. Ses 36 m2 vous offriront un espace
+                  intime et amoureux, où le confort reste le maître-mot. Il est
+                  bien sûr équipé de la climatisation.
                   <br />
                   <br />
-                  <b>Dans votre cuisine privative :</b>
+                  <b>Dans votre coin cuisine :</b>
+                  <br /> Réfrigérateur / congélateur vintage
                   <br />
-                  Bouilloire électrique
+                  Plaque à induction
                   <br />
-                  Réfrigérateur
-                  <br />
-                  Espace repas extérieur
-                  <br />
-                  Cuisine
-                  <br />
-                  Grille-pain
-                  <br />
-                  Plateau / bouilloire
-                  <br />
-                  Lave-vaisselle
-                  <br />
-                  Machine à café
+                  Hotte aspirante
                   <br />
                   Four
                   <br />
-                  Plaque de cuisson
-                  <br />
-                  Coin repas
-                  <br />
                   Micro-ondes
                   <br />
-                  Barbecue
+                  Lave-vaisselle
                   <br />
-                  Mobilier d’extérieur
+                  Lave-linge
                   <br />
-                  Chaise haute pour enfants
+                  Cafetière électrique
                   <br />
-                  Table à manger
+                  Bouilloire électrique
                   <br />
-                  Ustensiles de cuisine
+                  Grille-pain
+                  <br />
+                  Ustensiles de cuisine / Vaisselle
+                  <br />
+                  Aspirateur
+                  <br />
+                  Balai, serpillère, pelle et balayette
+                  <br />
+                  Table à repasser
+                  <br />
+                  Fer à repasser
+                  <br />
+                  Produits d'entretien
+                  <br />
+                  Liquide vaisselle
+                  <br />
+                  Savon
+                  <br />
+                  Torchons
+                  <br />
+                  Îlot central avec 2 tabourets hauts
                   <br />
                   <br />
                   <b>Dans votre salle de bains privative :</b>
                   <br />
+                  Baignoire avec rideau de douche
+                  <br />
+                  distributeur savon / shampoing bio
+                  <br />
                   Sèche-cheveux
                   <br />
-                  Baignoire
+                  Poubelle
                   <br />
-                  Articles de toilette gratuits
+                  Miroir en pied
                   <br />
-                  Papier toilette
-                  <br />
-                  Salle de bains privative
+                  Sèche-serviettes électrique
                   <br />
                   Toilettes
                   <br />
+                  Papier toilettes
+                  <br />2 draps de bain et 2 serviettes Linvosges
                   <br />
-                  <b>Vue : </b>
                   <br />
-                  Terrasse
+                  <b>Côté Nuit :</b>
                   <br />
-                  Vue sur le jardin
+                  Lit en 160 qualité hôtelière, fait à votre arrivée
+                  <br />4 oreillers Linvosges
                   <br />
-                  Patio
+                  Couette Linvosges
                   <br />
-                  <b>Fumeurs: non-fumeurs</b>
+                  Linge de lit Linvosges
                   <br />
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
+                  <br />
+                  Commode et portant
+                  <br />
+                  <br />
+                  <b>Côté salon :</b>
+                  <br />
+                  Canapé fixe
+                  <br />
+                  Table basse
+                  <br />
+                  TV 4K grand écran (TNT, satellite, Netflix, chromcast,
+                  Spotify)
+                  <br />
+                  Enceintes connectées bluetooth
+                  <br />
+                  <br />
+                  <b>Côté terrasse:</b>
+                  <br />
+                  Coin repas
+                  <br />
+                  Coin salon
+                  <br />
+                  Barbecue électrique Weber
+                  <br />
+                  Séchoir à linge
+                  <br />
+                  Vue sur la cour centrale du Domaine
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
-              <img src={require("../../img/gites/Volupté/volupté1.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté2.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté3.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté4.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté5.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté6.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté7.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté8.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté9.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté10.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté11.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté12.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté13.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté14.jpg")} alt="" />
-<img src={require("../../img/gites/Volupté/volupté15.jpg")} alt="" />
+                <img
+                  src={require("../../img/gites/Volupté/volupté1.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté2.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté3.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté4.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté5.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté6.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté7.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté8.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté9.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté10.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté11.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté12.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté13.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté14.jpg")}
+                  alt=""
+                />
+                <img
+                  src={require("../../img/gites/Volupté/volupté15.jpg")}
+                  alt=""
+                />
               </div>
             </div>
 
@@ -398,12 +554,16 @@ export default function Gites() {
             {" "}
             <div>
               <h2>Quiétude</h2>
-              <h3>
-                A partir de <span>165€ la nuit</span>
-              </h3>
+              <h3>Pour 4 personnes</h3>
               <p>
-                En quête de quiétude ? Elle vous attend dans ce splendide
-                logement aux aspects modernes et industriels
+                En quête de Quiétude ? Elle vous attend dans ce confortable
+                logement aux aspects moderne et industriel. Sa surface de 66 m2,
+                avec ses 2 chambres, vous offrira un bel espace de vie. Bien
+                sûr, il est équipé de la climatisation. Sa terrasse privative de
+                50 m2, avec vue sur la piscine et le jardin, vous permettra de
+                prendre vos repas sous la tonnelle, de vous reposer dans le coin
+                salon sous la terrasse couverte. Un barbecue Weber électrique
+                est à votre disposition.
               </p>
             </div>
             <button onClick={openModal3} className="gites__items-button">
@@ -421,72 +581,124 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                  En quête de quiétude ? Elle vous attend dans ce splendide
-                  logement aux aspects modernes et industriels
+                  En quête de Quiétude ? Elle vous attend dans ce confortable
+                  logement aux aspects moderne et industriel.
+                  <br /> Sa surface de 66 m2, avec ses 2 chambres, vous offrira
+                  un bel espace de vie. Bien sûr, il est équipé de la
+                  climatisation. Sa terrasse privative de 50 m2, avec vue sur la
+                  piscine et le jardin, vous permettra de prendre vos repas sous
+                  la tonnelle, de vous reposer dans le coin salon sous la
+                  terrasse couverte. Un barbecue Weber électrique est à votre
+                  disposition.
                   <br />
                   <br />
                   <b>Dans votre cuisine privative :</b>
+                  <br /> Réfrigérateur / congélateur vintage
                   <br />
-                  Bouilloire électrique
+                  Plaque à induction
                   <br />
-                  Réfrigérateur
-                  <br />
-                  Espace repas extérieur
-                  <br />
-                  Cuisine
-                  <br />
-                  Grille-pain
-                  <br />
-                  Plateau / bouilloire
-                  <br />
-                  Lave-vaisselle
-                  <br />
-                  Machine à café
+                  Hotte aspirante
                   <br />
                   Four
                   <br />
-                  Plaque de cuisson
-                  <br />
-                  Coin repas
-                  <br />
                   Micro-ondes
                   <br />
-                  Barbecue
+                  Lave-vaisselle
                   <br />
-                  Mobilier d’extérieur
+                  Lave-linge
                   <br />
-                  Chaise haute pour enfants
+                  Cafetière expresso
                   <br />
-                  Table à manger
+                  Bouilloire électrique
                   <br />
-                  Ustensiles de cuisine
+                  Grille-pain
+                  <br />
+                  Ustensiles de cuisine / Vaisselle
+                  <br />
+                  Table à manger avec ses 4 chaises
+                  <br />
+                  Aspirateur
+                  <br />
+                  Table à repasser
+                  <br />
+                  Fer à repasser
+                  <br />
+                  Balai et serpillère
+                  <br />
+                  Pelle et balayette
+                  <br />
+                  Produits d'entretien
+                  <br />
+                  Liquide vaisselle
+                  <br />
+                  Torchons
                   <br />
                   <br />
-                  <b>Dans votre salle de bains privative :</b>
+                  <b>Dans votre salon:</b>
+                  <br /> Canapé d'angle
+                  <br />
+                  Fauteuil
+                  <br />
+                  Table basse
+                  <br />
+                  TV 4K grand écran (TNT, satellite, Netflix, chromcast,
+                  Spotify)
+                  <br />
+                  Enceintes connectées bluetooth
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bain privative :</b>
+                  <br /> Baignoire avec rideau de douche
+                  <br />
+                  distributeur savon / shampoing bio
                   <br />
                   Sèche-cheveux
                   <br />
-                  Baignoire
+                  Poubelle
                   <br />
-                  Articles de toilette gratuits
-                  <br />
-                  Papier toilette
-                  <br />
-                  Salle de bains privative
-                  <br />
-                  Toilettes
+                  Miroir en pied
                   <br />
                   <br />
-                  <b>Vue : </b>
+                  <b>Toilettes indépendantes:</b>
+                  <br /> Papier toilette
                   <br />
-                  Terrasse
+                  Poubelle
                   <br />
-                  Vue sur le jardin
                   <br />
-                  Patio
+                  <b>Chambre 1:</b>
+                  <br /> Lit en 160 qualité hôtelière, fait à votre arrivée
+                  <br />4 oreillers Linvosges
                   <br />
-                  <b>Fumeurs: non-fumeurs</b>
+                  Couette Linvosges
                   <br />
+                  Linge de lit Linvosges
+                  <br />
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
+                  <br />
+                  Penderie
+                  <br />
+                  Chaise
+                  <br />
+                  Vue côté jardin, sur la terrasse couverte
+                  <br />
+                  <br />
+                  <b>Chambre 2:</b>
+                  <br /> Lit modulable en une fois 160 ou 2 lits en 80
+                  <br />4 oreillers Linvosges
+                  <br />
+                  Couette Linvosges
+                  <br />
+                  Linge de lit Linvosges
+                  <br />
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
+                  <br />
+                  Penderie
+                  <br />
+                  Chaise
+                  <br />
+                  Vue côté cour du Domaine
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -658,13 +870,14 @@ export default function Gites() {
             {" "}
             <div>
               <h2>Sérénité</h2>
-              <h3>
-                A partir de <span>165€ la nuit</span>
-              </h3>
+              <h3>Pour 4 personnes</h3>
               <p>
-                Sérénité, quoi de plus agréable que la sérénité. Cet appartement
-                accueillant et chaleureux donnera un confort tout particulier à
-                votre séjour
+                Sa décoration bohème, aux tons blanc, beige et gris, vous
+                offrira un doux confort invitant à passer des moments sereins et
+                paisibles. <br /> Ses 66 m2 lumineux sont propices à la détente
+                et au repos. Sa terrasse privative de 50 m2, avec vue le jardin,
+                vous permettra de prendre vos repas sous la tonnelle, de vous
+                reposer dans le coin salon sous la terrasse couverte.
               </p>
             </div>
             <button onClick={openModal4} className="gites__items-button">
@@ -682,73 +895,123 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                  Sérénité, quoi de plus agréable que la sérénité. Cet
-                  appartement accueillant et chaleureux donnera un confort tout
-                  particulier à votre séjour
+                  Sa décoration bohème, aux tons blanc, beige et gris, vous
+                  offrira un doux confort invitant à passer des moments sereins
+                  et paisibles. Ses 66 m2 lumineux sont propices à la détente et
+                  au repos. Sa terrasse privative de 50 m2, avec vue le jardin,
+                  vous permettra de prendre vos repas sous la tonnelle, de vous
+                  reposer dans le coin salon sous la terrasse couverte. Un
+                  barbecue Weber électrique est à votre disposition.
                   <br />
                   <br />
                   <b>Dans votre cuisine privative :</b>
+                  <br /> Réfrigérateur / congélateur vintage
                   <br />
-                  Bouilloire électrique
+                  Plaque à induction 2 feux
                   <br />
-                  Réfrigérateur
+                  Plaque à gaz 2 feux
                   <br />
-                  Espace repas extérieur
-                  <br />
-                  Cuisine
-                  <br />
-                  Grille-pain
-                  <br />
-                  Plateau / bouilloire
-                  <br />
-                  Lave-vaisselle
-                  <br />
-                  Machine à café
+                  Hotte aspirante
                   <br />
                   Four
                   <br />
-                  Plaque de cuisson
-                  <br />
-                  Coin repas
-                  <br />
                   Micro-ondes
                   <br />
-                  Barbecue
+                  Cafetière électrique
                   <br />
-                  Mobilier d’extérieur
+                  Bouilloire électrique
                   <br />
-                  Chaise haute pour enfants
+                  Grille-pain
                   <br />
-                  Table à manger
+                  Lave-vaisselle
                   <br />
-                  Ustensiles de cuisine
+                  Ustensiles de cuisine / Vaisselle
+                  <br />
+                  Table à manger avec ses 4 chaises
+                  <br />
+                  Produits d'entretien
+                  <br />
+                  Liquide vaisselle
+                  <br />
+                  Torchons
                   <br />
                   <br />
-                  <b>Dans votre salle de bains privative :</b>
+                  <b>Dans le cellier :</b>
+                  <br /> Lave-linge
+                  <br />
+                  Aspirateur
+                  <br />
+                  Balai et serpillère
+                  <br />
+                  Pelle et balayette
+                  <br />
+                  Table à repasser
+                  <br />
+                  Fer à repasser
+                  <br />
+                  <br />
+                  <b>Dans votre salon :</b>
+                  Canapé d'angle Fauteuil Table basse TV 4K grand écran (TNT,
+                  satellite, Netflix, chromcast, Spotify) Enceintes connectées
+                  bluetooth
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bain privative :</b>
+                  <br />
+                  Baignoire avec rideau de douche
+                  <br />
+                  distributeur savon / shampoing bio
                   <br />
                   Sèche-cheveux
                   <br />
-                  Baignoire
+                  Poubelle
                   <br />
-                  Articles de toilette gratuits
+                  Miroir en pied
+                  <br />
+                  <br />
+                  <b>Toilettes indépendantes:</b>
                   <br />
                   Papier toilette
                   <br />
-                  Salle de bains privative
-                  <br />
-                  Toilettes
+                  Poubelle
                   <br />
                   <br />
-                  <b>Vue : </b>
+                  <b>Chambre 1:</b>
                   <br />
-                  Terrasse
+                  Lit en 160 qualité hôtelière, fait à votre arrivée
+                  <br />4 oreillers Linvosges
                   <br />
-                  Vue sur le jardin
+                  Couette Linvosges
                   <br />
-                  Patio
+                  Linge de lit Linvosges
                   <br />
-                  <b>Fumeurs: non-fumeurs</b>
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
                   <br />
+                  Penderie
+                  <br />
+                  Chaise
+                  <br />
+                  Vue côté jardin, sur la terrasse couverte
+                  <br />
+                  <br />
+                  <b>Chambre 2:</b>
+                  <br />
+                  Lit modulable en une fois 160 ou 2 lits en 80
+                  <br />4 oreillers Linvosges
+                  <br />
+                  Couette Linvosges
+                  <br />
+                  Linge de lit Linvosges
+                  <br />
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
+                  <br />
+                  Penderie
+                  <br />
+                  Chaise
+                  <br />
+                  Vue côté cour du Domaine
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">
@@ -852,13 +1115,16 @@ export default function Gites() {
             {" "}
             <div>
               <h2>Bien-être</h2>
-              <h3>
-                A partir de <span>165€ la nuit</span>
-              </h3>
+              <h3>Pour 4 personnes</h3>
               <p>
-                Donnez un sens particulièrement reposant à votre séjour en
-                optant pour le logement bien-être, ses couleurs de nature et son
-                atmosphère détendue
+                La décoration colorée vintage de votre logement vous apportera
+                bonne humeur et dynamisme.
+                <br /> Ses 80 m2 vous permettront de profiter pleinement de tous
+                ses équipements, et vous inviteront à des beaux moments de
+                partage en famille ou entre amis. Sa terrasse de 50 m2, moitié
+                couverte pour votre coin salon, et sous une treille pour votre
+                coin repas, vous invitera à la détente et à de bons moments de
+                convivialité.
               </p>
             </div>
             <button onClick={openModal5} className="gites__items-button">
@@ -876,73 +1142,124 @@ export default function Gites() {
             <div class="Modal__container">
               <div className="Modal__section Modal__section-text">
                 <p>
-                  Donnez un sens particulièrement reposant à votre séjour en
-                  optant pour le logement bien-être, ses couleurs de nature et
-                  son atmosphère détendue
                   <br />
                   <br />
-                  <b>Dans votre cuisine privative :</b>
+                  <b> Dans votre cuisine privative :</b>
                   <br />
-                  Bouilloire électrique
+                  Réfrigérateur / congélateur vintage
                   <br />
-                  Réfrigérateur
+                  Plaque à induction
                   <br />
-                  Espace repas extérieur
-                  <br />
-                  Cuisine
-                  <br />
-                  Grille-pain
-                  <br />
-                  Plateau / bouilloire
-                  <br />
-                  Lave-vaisselle
-                  <br />
-                  Machine à café
+                  Hotte aspirante
                   <br />
                   Four
                   <br />
-                  Plaque de cuisson
-                  <br />
-                  Coin repas
-                  <br />
                   Micro-ondes
                   <br />
-                  Barbecue
+                  Lave-vaisselle
                   <br />
-                  Mobilier d’extérieur
+                  Cafetière expresso
                   <br />
-                  Chaise haute pour enfants
+                  Bouilloire électrique
                   <br />
-                  Table à manger
+                  Grille-pain
                   <br />
-                  Ustensiles de cuisine
+                  Ustensiles de cuisine / Vaisselle
+                  <br />
+                  Produits d'entretien
+                  <br />
+                  Liquide vaisselle
+                  <br />
+                  Torchons
+                  <br />
+                  Coin repas:
+                  <br />
+                  Table
+                  <br />4 chaises
                   <br />
                   <br />
-                  <b>Dans votre salle de bains privative :</b>
+                  <b> Dans le cellier :</b>
+                  <br />
+                  Lave-linge
+                  <br />
+                  Aspirateur
+                  <br />
+                  Balai et serpillère
+                  <br />
+                  Pelle et balayette
+                  <br />
+                  Table à repasser
+                  <br />
+                  Fer à repasser
+                  <br />
+                  <br />
+                  <b> Dans votre salon:</b>
+                  <br />
+                  Canapé velours
+                  <br />
+                  Fauteuil
+                  <br />
+                  Table basse
+                  <br />
+                  TV 4K grand écran (TNT, satellite, Netflix, chromcast,
+                  Spotify)
+                  <br />
+                  Enceintes connectées bluetooth
+                  <br />
+                  <br />
+                  <b>Dans votre salle de bain privative :</b>
+                  <br />
+                  Baignoire avec rideau de douche
+                  <br />
+                  distributeur savon / shampoing bio
                   <br />
                   Sèche-cheveux
                   <br />
-                  Baignoire
+                  Poubelle
                   <br />
-                  Articles de toilette gratuits
+                  Miroir en pied
+                  <br />
+                  Toilettes semi-indépendante
                   <br />
                   Papier toilette
                   <br />
-                  Salle de bains privative
                   <br />
-                  Toilettes
+                  <b>Chambre 1:</b>
+                  <br />
+                  Lit en 160 qualité hôtelière, fait à votre arrivée
+                  <br />4 oreillers Linvosges
+                  <br />
+                  Couette Linvosges
+                  <br />
+                  Linge de lit Linvosges
+                  <br />
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
+                  <br />
+                  Portant
+                  <br />
+                  Commode
+                  <br />
+                  Vue côté jardin, terrasse couverte
                   <br />
                   <br />
-                  <b>Vue : </b>
+                  <b>Chambre 2:</b>
                   <br />
-                  Terrasse
+                  Lit modulable en une fois 160 ou 2 lits en 80
+                  <br />4 oreillers Linvosges
                   <br />
-                  Vue sur le jardin
+                  Couette Linvosges
                   <br />
-                  Patio
+                  Linge de lit Linvosges
                   <br />
-                  <b>Fumeurs: non-fumeurs</b>
+                  Tables de nuit avec lampes de chevet
+                  <br />2 descentes de lit
                   <br />
+                  Penderie
+                  <br />
+                  Chaise
+                  <br />
+                  Vue côté entrée du Domaine
                 </p>
               </div>
               <div className="Modal__section Modal__section-img">

@@ -29,7 +29,7 @@ export default function NavbarComponent() {
               Accueil
             </Link>
             <CustomLink to="/gites" className="items" onClick={toggleMenu}>
-              Le gite
+              Les gites
             </CustomLink>
             <CustomLink to="/contact" className="items" onClick={toggleMenu}>
               Contact
