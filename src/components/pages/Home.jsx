@@ -33,8 +33,12 @@ export default function Home() {
             Gordes) vous donnera tout le loisir de rayonner vers les plus beaux
             villages du Luberon. D'avis d'hôtes "<i>le domaine est idéalement situé
             pour profiter de tous les magnifiques villages aux alentours en
-            moins de 15 minutes</i>" Carine M (août 2023).
+            moins de 15 minutes</i>" Carine M (août 2023).<br/><br/>
+
+Concernant notre démarche écologique, outre un petit étang qui récupère les eaux de pluie, un composteur, le choix de produits de toilette bio,  nous nous sommes équipés d'une station de <b>panneaux photovoltaïques de 18 kw</b> pour limiter notre impact carbone, et avons remplacé les climatisations des deux studios par deux pompes à chaleur dernière génération.<br/><br/>
+Nous serons donc heureux de vous accueillir dès 2 nuits en basse et moyenne saison et à partir d'une semaine en haute saison, pour vous offrir une véritable expérience de repos et de confort, de découverte et de balades.
           </p>
+        
         </div>
         <div className="home__container-infos__content-carousel">
           <CarouselComponent />
